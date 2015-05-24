@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+body {
+  margin: 0;
+}
+
+/* whoami js object section */
+.whoami {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background-color: #333;
+}
+
+pre {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+pre code {
+  color: #ddd;
+  font-family: "Source Code Pro", monospace;
+  font-size: 2vmax;
+}
