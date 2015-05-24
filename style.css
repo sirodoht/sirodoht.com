@@ -37,6 +37,7 @@ pre code {
   display: flex;
   height: 100vh;
   align-items: center;
+  background-color: #2AA198;
 }
 
 .projects-item {
