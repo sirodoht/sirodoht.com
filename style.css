@@ -23,3 +23,14 @@ pre code {
   font-family: "Source Code Pro", monospace;
   font-size: 2vmax;
 }
+
+/* projects section */
+.projects {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.projects-item {
+  margin: auto;
+}
