@@ -21,7 +21,8 @@ pre {
 pre code {
   color: #ddd;
   font-family: "Source Code Pro", monospace;
-  font-size: 2vmax;
+  font-size: 1.7vmax;
+}
 
 .key {
   color: #B58900;
