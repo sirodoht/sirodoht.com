@@ -35,11 +35,46 @@ pre code {
 /* projects section */
 .projects {
   display: flex;
+  flex-shrink: 10;
   height: 100vh;
   align-items: center;
-  background-color: #2AA198;
+  background-color: #737373;
+  box-shadow: 0px 0px 6vmax 2vmax rgba(0, 0, 0, 0.1) inset;
 }
 
-.projects-item {
+.projects a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.projects a:hover,
+.projects a:focus {
+  color: #eee;
+  transition: .2s;
+}
+
+.desc {
+  display: flex;
+  flex: 0 0 auto;
   margin: auto;
+  color: #eee;
+}
+
+.desc-img {
+  margin-right: 2vw;
+  width: 20vw;
+}
+
+.desc-title {
+  font-size: 2vmax;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  margin-bottom: 4vh;
+}
+
+.desc-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.3vmax;
+  width: 35vw;
 }
