@@ -78,3 +78,17 @@ pre code {
   font-size: 1.3vmax;
   width: 35vw;
 }
+
+.desc-extra {
+  margin-top: 2vh;
+  display: flex;
+  flex: none;
+}
+
+.icon {
+  width: 3vw;
+}
+
+.seperator {
+  width: 1.5vw;
+}
