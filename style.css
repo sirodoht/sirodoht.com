@@ -55,7 +55,7 @@ pre code {
 
 .desc {
   display: flex;
-  flex: 0 0 auto;
+  flex: none;
   margin: auto;
   color: #eee;
 }
