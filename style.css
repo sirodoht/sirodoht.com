@@ -64,6 +64,8 @@ pre code {
   margin-right: 2vw;
   width: 20vw;
   height: 20vw;
+  border-radius: .4vmin;
+  box-shadow: 0 0 1vmin rgba(120, 120, 120, 0.15);
 }
 
 .desc-title {
