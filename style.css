@@ -32,12 +32,9 @@ pre code {
   color: #2AA198;
 }
 
-.down {
-  align-self: center;
-}
-
-.down img {
+.whoami img {
   height: 4vh;
+  align-self: center;
 }
 
 /* projects section */
