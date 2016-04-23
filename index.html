@@ -1,81 +1,108 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300|Roboto+Slab:300|Open+Sans:300" rel="stylesheet" type="text/css">
-    <title>sirodoht</title>
-  </head>
-  <body>
+---
+layout: default
+---
 
-    <section class="intro">
-      <div class="json">
-        <pre>
-          <code>
-            {
-              "<span class="key">sirodoht</span>": <span class="value">"developer"</span>,
-              "<span class="key">languages</span>": <span class="value">"javascript"</span>,
-              "<span class="key">layers</span>": <span class="value">"full-stack"</span>,
-              "<span class="key">projects</span>": {
-                "<span class="key"><a href="https://github.com/sirodoht/fondi">Fondi</a></span>": "<span class="value">an open courses platform"</span>,
-                "<span class="key"><a href="https://ketchuptime.xyz">Ketchup Time</a></span>": "<span class="value">pomodoro timer"</span>,
-                "<span class="key"><a href="https://github.com/sirodoht/aspen">aspen</a></span>": "<span class="value">node.js boilerplate"</span>,
-                "<span class="key"><a href="https://github.com/sirodoht/atom-pastery">atom-pastery</a></span>": "<span class="value"><a href="https://www.pastery.net">pastery.net</a> atom plugin</span>"
-              }
-            }
-          </code>
-        </pre>
-      </div>
-      <img class="more" src="angle-down.svg" alt="Angle down">
-    </section>
+<div class="home">
 
-    <section class="whoami">
-      <div class="desc">
-        <img class="desc-img" src="self.jpg" alt="Me">
-        <div class="desc-content">
-          <h3 class="desc-title">Hello there!</h3>
-          <p class="desc-text">
-            I'm Theodore, a software engineer.
-            <br>
-            My projects are mostly on the web. I'm writing Javascript; Node.js and Angular.
-            <br>
-            Feel free to <a href="mailto:theodorekeloglou@gmail.com?subject=Hey! What's up?" target="_blank">contact me</a> with anything in mind!
-          </p>
-          <div class="desc-extra">
-            <a href="mailto:theodorekeloglou@gmail.com" target="_blank">
-              <img class="icon" src="email.svg" alt="Email">
-            </a>
-            <div class="seperator"></div>
-            <a href="https://github.com/sirodoht">
-              <img class="icon" src="github.svg" alt="GitHub">
-            </a>
-            <div class="seperator"></div>
-            <a href="https://twitter.com/sirodoht">
-              <img class="icon" src="twitter.svg" alt="Twitter">
-            </a>
-          </div>
+  <section class="about">
+    <div class="about-desc">
+      <img class="about-desc-img" src="/static/img/self.jpg" alt="Me">
+      <div class="about-desc-content">
+        <h2 class="about-desc-title">Hello there!</h2>
+        <p class="about-desc-text">
+          I'm Theodore, a software engineer.
+          <br>
+          My projects are mainly on the web. I'm writing mostly full-stack Javascript;
+            Node.js, Angular and lately I've picked up React.
+          <br>
+          Feel free to <a href="mailto:theodorekeloglou@gmail.com?subject=Hey! What's up?" target="_blank">contact me</a>
+            with anything in mind!
+        </p>
+        <div class="about-desc-extra">
+          <a href="mailto:theodorekeloglou@gmail.com" target="_blank">
+            <img class="icon" src="/static/img/icon-email.svg" alt="Email">
+          </a>
+          <a href="https://github.com/sirodoht">
+            <img class="icon" src="/static/img/icon-github.svg" alt="GitHub">
+          </a>
+          <a href="https://twitter.com/sirodoht">
+            <img class="icon" src="/static/img/icon-twitter.svg" alt="Twitter">
+          </a>
+          <a href="https://www.linkedin.com/in/sirodoht">
+            <img class="icon" src="/static/img/icon-linkedin.svg" alt="LinkedIn">
+          </a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <script type="text/javascript">
-      var sirodoht = {
-        hi: "Hey you!",
-        email: "hi@sirodoht.xyz",
-      };
-      console.log(sirodoht);
-    </script>
+	<section class="projects">
+		<h2>Projects</h2>
+    <div class="projects-content">
+      <div class="projects-content-item">
+        <div class="projects-content-item-title">
+          <a href="http://fondi.xyz/">
+            <h3>Fondi</h3>
+          </a>
+        </div>
+        <div class="projects-content-item-desc">
+          An open courses platform built with Node.js, Express, PostgreSQL and React.
+          <br>
+          <a href="https://github.com/sirodoht/fondi">Source on Github</a>.
+        </div>
+      </div>
+      <div class="projects-content-item">
+        <div class="projects-content-item-title">
+          <a href="https://github.com/sirodoht/aspen">
+            <h3>Aspen</h3>
+          </a>
+        </div>
+        <div class="projects-content-item-desc">
+          A Node.js boilerplate and hackathon starter with Express, Sequelize, PostgreSQL and Sass.
+        </div>
+      </div>
+      <div class="projects-content-item">
+        <div class="projects-content-item-title">
+          <a href="https://ketchuptime.xyz/">
+            <h3>Ketchup Time</h3>
+          </a>
+        </div>
+        <div class="projects-content-item-desc">
+          A pomodoro technique timer using React.
+          <br><a href="https://github.com/sirodoht/ketchup">Source on Github</a>.
+        </div>
+      </div>
+      <div class="projects-content-item">
+        <div class="projects-content-item-title">
+          <a href="https://atom.io/packages/pastery">
+            <h3>Atom Pastery</h3>
+          </a>
+        </div>
+        <div class="projects-content-item-desc">
+          Atom package for <a href="https://www.pastery.net/">pastery.net</a> in CoffeeScript.
+          <br><a href="https://github.com/sirodoht/atom-pastery">Source on Github</a>.
+        </div>
+      </div>
+    </div>
+	</section>
 
-    <script type="text/javascript">
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<section class="projects">
+		<h2>Talks</h2>
+    <div class="projects-content">
+      <div class="projects-content-item">
+        <div class="projects-content-item-title">
+          <a href="https://sirodoht.xyz/es6-talk/">
+            <h3>ES6 Ghosts</h3>
+          </a>
+        </div>
+        <div class="projects-content-item-desc">
+          A talk on half the features of ES6, presented on the <a href="https://www.meetup.com/Thessaloniki-Node-js-Meetup/events/229757448/">
+            Node.js meetup of Thessaloniki</a> in March 2016.
+          <br><a href="https://www.youtube.com/watch?v=poLIoR2i2Zo">Recording on YouTube</a>.
+          <br><a href="https://github.com/sirodoht/es6-talk">Source on Github</a>.
+        </div>
+      </div>
+    </div>
+	</section>
 
-      ga('create', 'UA-54861632-3', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </body>
-</html>
+</div>
