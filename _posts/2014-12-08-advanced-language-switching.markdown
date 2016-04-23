@@ -19,6 +19,6 @@ The last hindrance was configuring `Win+Space` on Linux. It was not supported ou
 
 ## Autocorrect and prediction
 
-Another grievance of mine is the fact that there is still no mainstream auto-correct / prediction software for language input on desktop systems. SwiftKey is awesome on mobile, why not something similar for Skype [3] et al instant messaging applications?
+Another grievance of mine is the fact that there is still no mainstream auto-correct / prediction software for language input on desktop systems. SwiftKey is awesome on mobile, why not something similar for Skype et al instant messaging applications?
 
 I wonder if those who thought of it, tried it and it didn't work, but sometimes you have to type really quickly, and do not care about the mistakes. Maybe next-word prediction is too much, I do not use it on my mobile either.
