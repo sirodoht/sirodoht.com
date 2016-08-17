@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "In the land of MIU"
+title:  "The MIU formal system"
 date:   2016-04-23 02:27:32
 categories: maths, puzzles
 ---
