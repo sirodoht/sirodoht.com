@@ -26,7 +26,7 @@ hr {
 }
 
 .container {
-  width: 50em;
+  width: 44em;
   margin: auto;
 }
 
@@ -48,6 +48,7 @@ hr {
   font-size: 1.2em;
   font-weight: 300;
   color: #f1733f;
+  margin-top: 0.5em;
 }
 
 .contact {
@@ -69,7 +70,7 @@ hr {
   color: #aaa;
   margin-top: 2em;
   margin-bottom: 0.5em;
-  margin-left: 9em;
+  margin-left: 8em;
 }
 
 .section-item {
@@ -81,6 +82,7 @@ hr {
   width: 20%;
   text-align: right;
   padding-right: 1em;
+  line-height: 1.3em;
 }
 
 .section-item-content {
@@ -92,5 +94,11 @@ hr {
 }
 
 .section-item-content-description {
+  margin-bottom: 1em;
+  line-height: 1.3em;
+}
+
+.section-item-content-standalone {
   margin-bottom: 0.6em;
+  line-height: 1.3em;
 }
