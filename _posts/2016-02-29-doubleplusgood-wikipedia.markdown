@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Doubleplusgood Wikipedia"
-date:   2016-02-29 03:27:32
+title: "Doubleplusgood Wikipedia"
+date: 2016-02-29 03:27:32
 categories: knowledge
 ---
 
@@ -62,5 +62,15 @@ So, after all these years reading Wikipedia everyday I collected some of my favo
 * [Cicada 3301](https://en.wikipedia.org/wiki/Cicada_3301) is a name given to an enigmatic organization that on four occasions has posted a set of complex puzzles and alternate reality games to recruit codebreakers from the public.
 
 * [Barnum effect](https://en.wikipedia.org/wiki/Barnum_effect). A scientific approach onto why people continue to read their horoscope reports.
+
+* [Extreme ironing](https://en.wikipedia.org/wiki/Extreme_ironing) is an extreme sport in which people iron with ironing boards to remote locations.
+
+* [Trolley problem](https://en.wikipedia.org/wiki/Trolley_problem) is a thought experiment in ethics, in which you hve to decide between doing something and killing few or do nothing and knowingly let something kill many.
+
+* [Birthday_problem](https://en.wikipedia.org/wiki/Birthday_problem) is probability paradox. It claims that in a set of **n** randomly chosen people, a suprisingly large amount of pairs of them will have the same birthday.
+
+* [Printer steganography](https://en.wikipedia.org/wiki/Printer_steganography) is a practice of printing barely visible yellow dots on the paper which is encoded information of printer serial numbers and timestamps.
+
+* [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists), the most meta wikipedia article.
 
 And finally, the [post title reference](https://en.wikipedia.org/wiki/Newspeak#Vocabulary) explained by the protagonist.
