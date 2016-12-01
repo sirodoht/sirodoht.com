@@ -5,6 +5,8 @@ date: 2016-02-29 03:27:32
 categories: knowledge
 ---
 
+*Updated on Dec 1, 2016.*
+
 I really admire the Wikipedia project. It is a single point of reference for a colossal amount of topics. Had someone access only to Wikipedia and not the rest of the internet, they would still have access to an unprecedented knowledge repository, never witnessed before in the human history.
 
 The answer to how did we get here is also amazing: crowdsourcing. The vision was that anyone could contribute to the initial empty Wikipedia and gradually it would become better than Encyclopædia Britannica. Should someone describe a similar concept today, they would have been laughed off. It would have been dismissed as impossible and the human nature would have been invoked as an argument. However, it was marvelously pulled off.
@@ -67,10 +69,11 @@ So, after all these years reading Wikipedia everyday I collected some of my favo
 
 * [Trolley problem](https://en.wikipedia.org/wiki/Trolley_problem) is a thought experiment in ethics, in which you hve to decide between doing something and killing few or do nothing and knowingly let something kill many.
 
-* [Birthday_problem](https://en.wikipedia.org/wiki/Birthday_problem) is probability paradox. It claims that in a set of **n** randomly chosen people, a suprisingly large amount of pairs of them will have the same birthday.
+* [Birthday_problem](https://en.wikipedia.org/wiki/Birthday_problem) is probability paradox. It claims that in a set of *n* randomly chosen people, a suprisingly large amount of pairs of them will have the same birthday.
 
 * [Printer steganography](https://en.wikipedia.org/wiki/Printer_steganography) is a practice of printing barely visible yellow dots on the paper which is encoded information of printer serial numbers and timestamps.
 
 * [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists), the most meta wikipedia article.
 
 And finally, the [post title reference](https://en.wikipedia.org/wiki/Newspeak#Vocabulary) explained by the protagonist.
+
