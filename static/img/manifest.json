@@ -1,5 +1,5 @@
 {
-	"name": "sirodoht",
+	"name": "sirodoht.xyz",
 	"icons": [
 		{
 			"src": "\/static\/img\/android-chrome-192x192.png",
@@ -12,6 +12,5 @@
 			"type": "image\/png"
 		}
 	],
-	"theme_color": "#0d3354",
-	"display": "standalone"
+	"theme_color": "#000000"
 }
