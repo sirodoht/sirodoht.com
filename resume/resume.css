@@ -1,22 +1,26 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #222;
+  font-size: 17px;
+}
+
+::selection {
+  background: #ffb7b7;
 }
 
 a {
-  transition: color .1s;
-  color: #265c83;
+  color: #222;
+  text-decoration: none;
+  transition: 0.1s;
 }
 
 a:link,
 a:visited {
-  color: #265c83;
+  border-bottom: 3px solid #f1733f;
 }
 a:hover {
-  color: #7fdbff;
-}
-a:active {
-  transition: color .3s;
-  color: #007be6;
+  color: #fff;
+  background-color: #f1733f;
 }
 
 hr {
@@ -27,7 +31,9 @@ hr {
 
 .container {
   width: 44em;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2em;
 }
 
 .header {
@@ -45,7 +51,6 @@ hr {
 
 .byline {
   font-size: 1.2em;
-  font-weight: 300;
   display: flex;
   margin-top: .5em;
   color: #f1733f;
@@ -59,8 +64,8 @@ hr {
   align-self: center;
 }
 
-.contact > a {
-  line-height: 1.3em;
+.contact-item {
+  margin-bottom: 0.3em;
 }
 
 .section-title {
@@ -78,7 +83,7 @@ hr {
 }
 
 .section-item-date {
-  line-height: 1.3em;
+  line-height: 1.6em;
   width: 20%;
   padding-right: 1em;
   text-align: right;
@@ -90,15 +95,15 @@ hr {
 }
 
 .section-item-content-title {
-  margin-bottom: .3em;
+  line-height: 1.6em;
 }
 
 .section-item-content-description {
-  line-height: 1.3em;
+  line-height: 1.6em;
   margin-bottom: 1em;
 }
 
 .section-item-content-standalone {
-  line-height: 1.3em;
+  line-height: 1.6em;
   margin-bottom: .6em;
 }
