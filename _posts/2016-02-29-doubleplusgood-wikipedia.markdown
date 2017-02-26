@@ -5,7 +5,7 @@ date: 2016-02-29 03:27:32
 categories: knowledge
 ---
 
-*Updated on Dec 1, 2016.*
+*Updated on Feb 26, 2017.*
 
 I really admire the Wikipedia project. It is a single point of reference for a colossal amount of topics. Had someone access only to Wikipedia and not the rest of the internet, they would still have access to an unprecedented knowledge repository, never witnessed before in the human history.
 
@@ -66,6 +66,8 @@ So, after all these years reading Wikipedia everyday I collected some of my favo
 * [Barnum effect](https://en.wikipedia.org/wiki/Barnum_effect). A scientific approach onto why people continue to read their horoscope reports.
 
 * [Extreme ironing](https://en.wikipedia.org/wiki/Extreme_ironing) is an extreme sport in which people iron with ironing boards to remote locations.
+
+* [Cool S](https://en.wikipedia.org/wiki/Cool_S), a pop culture signature/sketch you may know.
 
 * [Trolley problem](https://en.wikipedia.org/wiki/Trolley_problem) is a thought experiment in ethics, in which you hve to decide between doing something and killing few or do nothing and knowingly let something kill many.
 
