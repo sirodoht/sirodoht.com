@@ -5,7 +5,7 @@ date: 2016-02-29 03:27:32
 categories: knowledge
 ---
 
-*Updated on Feb 26, 2017.*
+*Updated on Mar 22, 2017.*
 
 I really admire the Wikipedia project. It is a single point of reference for a colossal amount of topics. Had someone access only to Wikipedia and not the rest of the internet, they would still have access to an unprecedented knowledge repository, never witnessed before in the human history.
 
@@ -76,6 +76,8 @@ So, after all these years reading Wikipedia everyday I collected some of my favo
 * [Printer steganography](https://en.wikipedia.org/wiki/Printer_steganography) is a practice of printing barely visible yellow dots on the paper which is encoded information of printer serial numbers and timestamps.
 
 * [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists), the most meta wikipedia article.
+
+* [Wikipedia:Unusual_articles], a meta article, a list with the most unusual articles. [Careful, very time consuming]
 
 And finally, the [post title reference](https://en.wikipedia.org/wiki/Newspeak#Vocabulary) explained by the protagonist.
 
