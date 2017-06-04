@@ -77,7 +77,7 @@ So, after all these years reading Wikipedia everyday I collected some of my favo
 
 * [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists), the most meta wikipedia article.
 
-* [Wikipedia:Unusual_articles], a meta article, a list with the most unusual articles. [Careful, very time consuming]
+* [Wikipedia:Unusual_articles](https://en.wikipedia.org/wiki/Wikipedia:Unusual_articles), a meta article, a list with the most unusual articles.
 
 And finally, the [post title reference](https://en.wikipedia.org/wiki/Newspeak#Vocabulary) explained by the protagonist.
 
