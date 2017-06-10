@@ -137,6 +137,10 @@ a:hover {
   line-height: 2rem;
 }
 
+.section-entry-project::before {
+  content: "> ";
+}
+
 .section-entry-details {
   display: flex;
   font-size: 0.95rem;
