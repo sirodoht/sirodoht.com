@@ -102,6 +102,7 @@
   .icon {
     width: 2em;
     margin-right: 1em;
+    opacity: 0.9;
   }
 }
 
@@ -189,11 +190,11 @@
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
 
-  .icon > svg {
+  .icon-svg {
     display: inline-block;
     width: 20px;
     height: 20px;
-    vertical-align: middle;
+    opacity: 0.3;
   }
 }
 
