@@ -31,14 +31,19 @@ a:hover {
   background-color: #00ac56;
 }
 
+.outer-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container {
   width: 48rem;
   background: #fff;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 2rem;
   padding: 4rem;
-  margin: 2rem auto;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
 }
 
 @media print {
