@@ -96,6 +96,7 @@ A nice visualization is with old kilometer or miles counters. Each "column" was 
 #### Let's count binary!
 
 Binary (base 2) system has two digits, 0 and 1. We will count binary using the way we count decimal with a slight difference: we will not reset when we reach 9 but when we reach the last digit of binary, which is 1.
+
     Base   10       2
            0        000000
            1        000001
