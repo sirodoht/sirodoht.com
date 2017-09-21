@@ -69,4 +69,4 @@ All in all, I liked Rails and Django and I’m very interested in working more w
 
 ---
 
-*This article was originally published on [Medium](https://medium.com/@sirodoht/coming-from-node-js-ruby-on-rails-and-django-6c6c9390e31a).*
+*This article was also published on [HackerNoon](https://hackernoon.com/coming-from-node-js-ruby-on-rails-and-django-6c6c9390e31a).*
