@@ -5,7 +5,7 @@ date: 2017-09-11 10:27:32
 categories: philosophy
 ---
 
-> Originally written in June 2014. Revised and published in September 2017.
+> Originally written in June 2014. Revised and published in September 2017.  
 > Thank you, George the Handsome, for the notes.
 
 The purpose of this essay is to inform the reader about the philosophical views on the topic of free will. The existence of free will, though it may seem as a far-fetched and non-everyday issue, it has some very important consequences on our lives. For instance, let’s examine happiness. It is said that in order to be happy you need to pick and do the things that you like, things that define you. Firstly, though, you have to find what these things are. In order to be sure about these you need to act based on your own free will.
