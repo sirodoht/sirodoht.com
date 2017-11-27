@@ -57,7 +57,7 @@ a:hover {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .header-intro {
@@ -123,6 +123,12 @@ a:hover {
 
 .section-description {
   margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.section-description-lead {
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
 }
 
 .section-entry {
