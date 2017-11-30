@@ -5,7 +5,7 @@ date: 2016-02-29 03:27:32
 categories: knowledge
 ---
 
-*Updated on Oct 20, 2017.*
+*Updated on Dec 1, 2017.*
 
 I really admire the Wikipedia project. It is a single point of reference for a colossal amount of topics. Had someone access only to Wikipedia and not the rest of the internet, they would still have access to an unprecedented knowledge repository, never witnessed before in the human history.
 
@@ -80,6 +80,8 @@ So, after all these years reading Wikipedia everyday I collected some of my favo
 * [Heat burst](https://en.wikipedia.org/wiki/Heat_burst). Imagine, suddenly, at midnight, the temperature rising to 40°C.
 
 * [Sunrise equation](https://en.wikipedia.org/wiki/Sunrise_equation). A mathematical way to learn the sunrise and sunset time of a place.
+
+* [Wabi-sabi](https://en.wikipedia.org/wiki/Wabi-sabi). Japanese worldview on the acceptance of imperfection. An alternative "worse is better".
 
 * [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists), the most meta wikipedia article.
 
