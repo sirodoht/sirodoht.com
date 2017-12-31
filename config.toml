@@ -1,0 +1,11 @@
+base_url = "https://sirodoht.xyz"
+title = "Theodore Keloglou | Software Engineer and Founder"
+description = "Personal website of Theodore Keloglou"
+language_code = "en"
+compile_sass = false
+highlight_code = true
+highlight_theme = "base16-ocean-light"
+generate_rss = true
+rss_limit = 20
+
+[extra]
