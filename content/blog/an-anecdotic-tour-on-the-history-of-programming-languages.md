@@ -1,9 +1,8 @@
----
-layout: post
-title:  "An anecdotic tour on the history of programming languages"
-date:   2017-04-09 10:27:32
-categories: programming, languages, history
----
++++
+title = "An anecdotic tour on the history of programming languages"
+date = "2017-04-09"
+template = "post.html"
++++
 
 > Disclaimer: The following 2514 words might not be wholly accurate.
 

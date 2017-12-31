@@ -1,9 +1,8 @@
----
-layout: post
-title: "33 Questions and numeral systems"
-date: 2014-06-27 16:27:32
-categories: fun, puzzle
----
++++
+title = "33 Questions and numeral systems"
+date = "2014-06-27"
+template = "post.html"
++++
 
 [33 Questions](https://github.com/MarkDunne/33-questions) is a GitHub repository with the purpose of coming up with exactly 33 polar questions (yes or no questions) which will be able to identify every person living on Earth.
 

@@ -1,9 +1,8 @@
----
-layout: post
-title: "Coming from Node.js: Ruby on Rails and Django"
-date: 2017-08-22 17:27:32
-categories: web
----
++++
+title = "Coming from Node.js: Ruby on Rails and Django"
+date = "2017-08-22"
+template = "post.html"
++++
 
 For almost three years now I have been working with Node.js, along with the rest of the gang, Express, Mongo, Angular and React.
 

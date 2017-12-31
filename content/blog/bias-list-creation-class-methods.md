@@ -1,9 +1,8 @@
----
-layout: post
-title:  "The bias of list creation in the form of class methods"
-date:   2015-09-10 03:27:32
-categories: programming
----
++++
+title = "The bias of list creation in the form of class methods"
+date = "2015-09-10"
+template = "post.html"
++++
 
 It's interesting how human biases carry on to writing code and how they evolve in this transition.
 

@@ -1,9 +1,8 @@
----
-layout: post
-title: "Free will in a deterministic universe"
-date: 2017-09-11 10:27:32
-categories: philosophy
----
++++
+title = "Free will in a deterministic universe"
+date = "2017-09-11"
+template = "post.html"
++++
 
 > Originally written in June 2014. Revised and published in September 2017.  
 > Thank you, George the Handsome, for the notes.

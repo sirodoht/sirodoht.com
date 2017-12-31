@@ -1,0 +1,25 @@
+{% extends "index.html" %}
+
+{% block title %}
+  sirodoht blog
+{% endblock title %}
+
+{% block content %}
+  <div class="blog">
+    <div class="blog-posts">
+      <ul class="blog-posts-list">
+        {% set blog = get_section(path="blog/_index.md") %}
+        {% for post in blog.pages %}
+          <li class="blog-posts-list-item">
+            <span class="blog-posts-list-item-meta">
+              {{ post.date | date(format="%B %e, %Y") }}
+            </span>
+            <h2>
+              <a class="blog-posts-list-item-link" href="{{ post.permalink }}">{{ post.title }}</a>
+            </h2>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endblock content %}

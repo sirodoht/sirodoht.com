@@ -1,9 +1,8 @@
----
-layout: post
-title: "Book review: Node.js Blueprints"
-date: 2014-07-22 17:27:32
-categories: books
----
++++
+title = "Book review: Node.js Blueprints"
+date = "2014-07-22"
+template = "post.html"
++++
 
 I recently read [Node.js Blueprints](http://www.amazon.com/Node-js-Blueprints-Krasimir-Tsonev/dp/1783287330) by Krasimir Tsonev (Packt Publishing).
 

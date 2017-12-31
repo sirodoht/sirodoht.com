@@ -1,9 +1,8 @@
----
-layout: post
-title:  "Battlehack Athens 2015"
-date:   2015-07-15 03:27:32
-categories: hackathons
----
++++
+title = "Battlehack Athens 2015"
+date = "2015-07-15"
+template = "post.html"
++++
 
 This May I attended for the first time the Battlehack hackathon series. It was also the first time they were coming to Athens.
 

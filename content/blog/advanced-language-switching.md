@@ -1,9 +1,8 @@
----
-layout: post
-title:  "Advanced Language Switching"
-date:   2014-12-08 03:27:32
-categories: operating systems
----
++++
+title = "Advanced Language Switching"
+date = "2014-12-08"
+template = "post.html"
++++
 
 One field where there is not as much development as I would like is language input, other than English. This is understandable for many reasons, but there is so much room for improvement. I am Greek and the situation is pretty good, but I cannot imagine how Chinese or Japanese and other people with hundred letters in their alphabet, write in their language. I have read there is (or was) much debate about how many Japanese letters will be included in the UTF* format.
 

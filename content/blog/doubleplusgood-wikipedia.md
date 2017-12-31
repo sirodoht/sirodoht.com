@@ -1,9 +1,8 @@
----
-layout: post
-title: "Doubleplusgood Wikipedia"
-date: 2016-02-29 03:27:32
-categories: knowledge
----
++++
+title = "Doubleplusgood Wikipedia"
+date = "2016-02-29"
+template = "post.html"
++++
 
 *Updated on Dec 1, 2017.*
 

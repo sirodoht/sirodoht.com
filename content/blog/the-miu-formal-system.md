@@ -1,9 +1,8 @@
----
-layout: post
-title:  "The MIU formal system"
-date:   2016-04-23 02:27:32
-categories: maths, puzzles
----
++++
+title = "The MIU formal system"
+date = "2016-04-23"
+template = "post.html"
++++
 
 When I started my undergraduate studies on Computer Science I was very enthusiastic about the theoretical foundations I was about to learn. In this quest I googled “best computer science books”. This will get you most of the CS classic and among them you will find *[Gödel, Escher, Bach: An Eternal Golden Braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)*, a quite peculiar book.
 
