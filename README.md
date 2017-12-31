@@ -1,4 +1,4 @@
-# sirodoht.github.io
+# sirodoht.xyz
 
 Source code of [sirodoht.xyz](https://sirodoht.xyz/).
 
