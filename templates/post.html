@@ -1,0 +1,24 @@
+{% extends "index.html" %}
+
+{% block title %}
+  {{ page.title }} — sirodoht blog
+{% endblock title %}
+
+{% block content %}
+  <div class="post">
+    <article class="post-content" itemscope itemtype="http://schema.org/BlogPosting">
+      <h1 class="post-content-title" itemprop="name headline">{{ page.title }}</h1>
+      <div class="post-content-meta">
+        <time datetime="{{ page.date | date(format="%+") }}" itemprop="datePublished">{{ page.date | date(format="%B %e, %Y") }}</time>
+      </div>
+      <div class="post-content-body" itemprop="articleBody">
+        {{ page.content | safe }}
+      </div>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="sirodoht">Tweet</a>
+      <a href="https://twitter.com/sirodoht" class="twitter-follow-button" data-show-count="false">Follow @sirodoht</a>
+    </article>
+  </div>
+
+  <!-- Twitter share -->
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+{% endblock content %}
