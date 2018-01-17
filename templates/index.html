@@ -119,125 +119,41 @@
       <section class="home-projects">
         <h2>Open Source</h2>
         <div class="home-projects-content">
-          <div class="home-projects-content-item">
-            <div class="home-projects-content-item-title">
-              <a href="https://github.com/sirodoht/fondi" target="_blank">
-                <h3>Fondi</h3>
-              </a>
-              <a href="https://github.com/sirodoht/fondi" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="20">
-                  <path fill="#1e1e1e" d="M512 0C229.25 0 0 229.25 0 512c0 226.25 146.688 418.125 350.156 485.812 25.594 4.688 34.938-11.125 34.938-24.625 0-12.188-.469-52.562-.719-95.312C242 908.812 211.906 817.5 211.906 817.5c-23.312-59.125-56.844-74.875-56.844-74.875-46.531-31.75 3.53-31.125 3.53-31.125 51.406 3.562 78.47 52.75 78.47 52.75 45.688 78.25 119.875 55.625 149 42.5 4.654-33 17.904-55.625 32.5-68.375-113.656-12.937-233.218-56.875-233.218-253.063 0-55.938 19.969-101.562 52.656-137.406-5.219-13-22.844-65.094 5.062-135.562 0 0 42.938-13.75 140.812 52.5 40.812-11.406 84.594-17.031 128.125-17.219 43.5.188 87.312 5.875 128.188 17.281 97.688-66.312 140.688-52.5 140.688-52.5 28 70.531 10.375 122.562 5.125 135.5 32.812 35.844 52.625 81.469 52.625 137.406 0 196.688-119.75 240-233.812 252.688 18.438 15.875 34.75 47 34.75 94.75 0 68.438-.688 123.625-.688 140.5 0 13.625 9.312 29.562 35.25 24.562C877.438 930 1024 738.125 1024 512 1024 229.25 794.75 0 512 0z"/>
-                </svg>
-              </a>
+          {% for item in config.extra.projects %}
+            <div class="home-projects-content-item">
+              <div class="home-projects-content-item-title">
+                <a href="{{ item.url }}" target="_blank">
+                  <h3>{{ item.name }}</h3>
+                </a>
+                <a href="{{ item.github_url }}" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="20">
+                    <path fill="#1e1e1e" d="M512 0C229.25 0 0 229.25 0 512c0 226.25 146.688 418.125 350.156 485.812 25.594 4.688 34.938-11.125 34.938-24.625 0-12.188-.469-52.562-.719-95.312C242 908.812 211.906 817.5 211.906 817.5c-23.312-59.125-56.844-74.875-56.844-74.875-46.531-31.75 3.53-31.125 3.53-31.125 51.406 3.562 78.47 52.75 78.47 52.75 45.688 78.25 119.875 55.625 149 42.5 4.654-33 17.904-55.625 32.5-68.375-113.656-12.937-233.218-56.875-233.218-253.063 0-55.938 19.969-101.562 52.656-137.406-5.219-13-22.844-65.094 5.062-135.562 0 0 42.938-13.75 140.812 52.5 40.812-11.406 84.594-17.031 128.125-17.219 43.5.188 87.312 5.875 128.188 17.281 97.688-66.312 140.688-52.5 140.688-52.5 28 70.531 10.375 122.562 5.125 135.5 32.812 35.844 52.625 81.469 52.625 137.406 0 196.688-119.75 240-233.812 252.688 18.438 15.875 34.75 47 34.75 94.75 0 68.438-.688 123.625-.688 140.5 0 13.625 9.312 29.562 35.25 24.562C877.438 930 1024 738.125 1024 512 1024 229.25 794.75 0 512 0z"/>
+                  </svg>
+                </a>
+              </div>
+              <div class="home-projects-content-item-desc">
+                {{ item.description|safe }}
+              </div>
             </div>
-            <div class="home-projects-content-item-desc">
-              Open courses platform built with Node.js, Express, PostgreSQL and React.
-            </div>
-          </div>
-          <div class="home-projects-content-item">
-            <div class="home-projects-content-item-title">
-              <a href="https://github.com/sirodoht/aspen" target="_blank">
-                <h3>Aspen</h3>
-              </a>
-              <a href="https://github.com/sirodoht/aspen" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="20">
-                  <path fill="#1e1e1e" d="M512 0C229.25 0 0 229.25 0 512c0 226.25 146.688 418.125 350.156 485.812 25.594 4.688 34.938-11.125 34.938-24.625 0-12.188-.469-52.562-.719-95.312C242 908.812 211.906 817.5 211.906 817.5c-23.312-59.125-56.844-74.875-56.844-74.875-46.531-31.75 3.53-31.125 3.53-31.125 51.406 3.562 78.47 52.75 78.47 52.75 45.688 78.25 119.875 55.625 149 42.5 4.654-33 17.904-55.625 32.5-68.375-113.656-12.937-233.218-56.875-233.218-253.063 0-55.938 19.969-101.562 52.656-137.406-5.219-13-22.844-65.094 5.062-135.562 0 0 42.938-13.75 140.812 52.5 40.812-11.406 84.594-17.031 128.125-17.219 43.5.188 87.312 5.875 128.188 17.281 97.688-66.312 140.688-52.5 140.688-52.5 28 70.531 10.375 122.562 5.125 135.5 32.812 35.844 52.625 81.469 52.625 137.406 0 196.688-119.75 240-233.812 252.688 18.438 15.875 34.75 47 34.75 94.75 0 68.438-.688 123.625-.688 140.5 0 13.625 9.312 29.562 35.25 24.562C877.438 930 1024 738.125 1024 512 1024 229.25 794.75 0 512 0z"/>
-                </svg>
-              </a>
-            </div>
-            <div class="home-projects-content-item-desc">
-              Node.js boilerplate and hackathon starter; Koa, Passport, Sequelize, PostgreSQL, Pug, Jest.
-            </div>
-          </div>
-          <div class="home-projects-content-item">
-            <div class="home-projects-content-item-title">
-              <a href="https://ketchuptime.xyz/" target="_blank">
-                <h3>Ketchup Time</h3>
-              </a>
-              <a href="https://github.com/sirodoht/ketchup" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="20">
-                  <path fill="#1e1e1e" d="M512 0C229.25 0 0 229.25 0 512c0 226.25 146.688 418.125 350.156 485.812 25.594 4.688 34.938-11.125 34.938-24.625 0-12.188-.469-52.562-.719-95.312C242 908.812 211.906 817.5 211.906 817.5c-23.312-59.125-56.844-74.875-56.844-74.875-46.531-31.75 3.53-31.125 3.53-31.125 51.406 3.562 78.47 52.75 78.47 52.75 45.688 78.25 119.875 55.625 149 42.5 4.654-33 17.904-55.625 32.5-68.375-113.656-12.937-233.218-56.875-233.218-253.063 0-55.938 19.969-101.562 52.656-137.406-5.219-13-22.844-65.094 5.062-135.562 0 0 42.938-13.75 140.812 52.5 40.812-11.406 84.594-17.031 128.125-17.219 43.5.188 87.312 5.875 128.188 17.281 97.688-66.312 140.688-52.5 140.688-52.5 28 70.531 10.375 122.562 5.125 135.5 32.812 35.844 52.625 81.469 52.625 137.406 0 196.688-119.75 240-233.812 252.688 18.438 15.875 34.75 47 34.75 94.75 0 68.438-.688 123.625-.688 140.5 0 13.625 9.312 29.562 35.25 24.562C877.438 930 1024 738.125 1024 512 1024 229.25 794.75 0 512 0z"/>
-                </svg>
-              </a>
-            </div>
-            <div class="home-projects-content-item-desc">
-              Pomodoro technique timer built with React.
-            </div>
-          </div>
-          <div class="home-projects-content-item">
-            <div class="home-projects-content-item-title">
-              <a href="https://github.com/sirodoht/eddy" target="_blank">
-                <h3>eddy</h3>
-              </a>
-              <a href="https://github.com/sirodoht/eddy" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="20">
-                  <path fill="#1e1e1e" d="M512 0C229.25 0 0 229.25 0 512c0 226.25 146.688 418.125 350.156 485.812 25.594 4.688 34.938-11.125 34.938-24.625 0-12.188-.469-52.562-.719-95.312C242 908.812 211.906 817.5 211.906 817.5c-23.312-59.125-56.844-74.875-56.844-74.875-46.531-31.75 3.53-31.125 3.53-31.125 51.406 3.562 78.47 52.75 78.47 52.75 45.688 78.25 119.875 55.625 149 42.5 4.654-33 17.904-55.625 32.5-68.375-113.656-12.937-233.218-56.875-233.218-253.063 0-55.938 19.969-101.562 52.656-137.406-5.219-13-22.844-65.094 5.062-135.562 0 0 42.938-13.75 140.812 52.5 40.812-11.406 84.594-17.031 128.125-17.219 43.5.188 87.312 5.875 128.188 17.281 97.688-66.312 140.688-52.5 140.688-52.5 28 70.531 10.375 122.562 5.125 135.5 32.812 35.844 52.625 81.469 52.625 137.406 0 196.688-119.75 240-233.812 252.688 18.438 15.875 34.75 47 34.75 94.75 0 68.438-.688 123.625-.688 140.5 0 13.625 9.312 29.562 35.25 24.562C877.438 930 1024 738.125 1024 512 1024 229.25 794.75 0 512 0z"/>
-                </svg>
-              </a>
-            </div>
-            <div class="home-projects-content-item-desc">
-              <a href="http://editorconfig.org/" target="_blank">EditorConfig</a> file generator in Rust.
-            </div>
-          </div>
-          <div class="home-projects-content-item">
-            <div class="home-projects-content-item-title">
-              <a href="http://christmas.sirodoht.xyz/" target="_blank">
-                <h3>Gift Exchanger 2.0</h3>
-              </a>
-              <a href="https://github.com/sirodoht/gift-exchanger" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="20">
-                  <path fill="#1e1e1e" d="M512 0C229.25 0 0 229.25 0 512c0 226.25 146.688 418.125 350.156 485.812 25.594 4.688 34.938-11.125 34.938-24.625 0-12.188-.469-52.562-.719-95.312C242 908.812 211.906 817.5 211.906 817.5c-23.312-59.125-56.844-74.875-56.844-74.875-46.531-31.75 3.53-31.125 3.53-31.125 51.406 3.562 78.47 52.75 78.47 52.75 45.688 78.25 119.875 55.625 149 42.5 4.654-33 17.904-55.625 32.5-68.375-113.656-12.937-233.218-56.875-233.218-253.063 0-55.938 19.969-101.562 52.656-137.406-5.219-13-22.844-65.094 5.062-135.562 0 0 42.938-13.75 140.812 52.5 40.812-11.406 84.594-17.031 128.125-17.219 43.5.188 87.312 5.875 128.188 17.281 97.688-66.312 140.688-52.5 140.688-52.5 28 70.531 10.375 122.562 5.125 135.5 32.812 35.844 52.625 81.469 52.625 137.406 0 196.688-119.75 240-233.812 252.688 18.438 15.875 34.75 47 34.75 94.75 0 68.438-.688 123.625-.688 140.5 0 13.625 9.312 29.562 35.25 24.562C877.438 930 1024 738.125 1024 512 1024 229.25 794.75 0 512 0z"/>
-                </svg>
-              </a>
-            </div>
-            <div class="home-projects-content-item-desc">
-              Gift exchanger for the age of the future.
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </section>
 
       <section class="home-projects">
         <h2>Talks</h2>
         <div class="home-projects-content">
-          <div class="home-projects-content-item">
-            <div class="home-projects-content-item-title">
-              <a href="http://slides.com/sirodoht/http2-overview" target="_blank">
-                <h3>HTTP/2 Overview</h3>
-              </a>
+          {% for item in config.extra.talks %}
+            <div class="home-projects-content-item">
+              <div class="home-projects-content-item-title">
+                <a href="{{ item.url }}" target="_blank">
+                  <h3>{{ item.name }}</h3>
+                </a>
+              </div>
+              <div class="home-projects-content-item-desc">
+                {{ item.description|safe }}
+              </div>
             </div>
-            <div class="home-projects-content-item-desc">
-              Overview of the new protocol of the web at
-              <a href="https://www.meetup.com/PyThess/events/240579669/" target="_blank">PyThess</a>,
-              the Python meetup of Thessaloniki, Greece; June 2017.
-            </div>
-          </div>
-          <div class="home-projects-content-item">
-            <div class="home-projects-content-item-title">
-              <a href="http://slides.com/sirodoht/event-loop" target="_blank">
-                <h3>Javascript Async / Event loop</h3>
-              </a>
-            </div>
-            <div class="home-projects-content-item-desc">
-              Dive into how the async nature of JavaScript works and mechanics of the event loop. At the
-              <a href="https://www.meetup.com/Thessaloniki-Node-js-Meetup/events/236095246/" target="_blank">SKG Node.js meetup</a>;
-              December 2016.
-            </div>
-          </div>
-          <div class="home-projects-content-item">
-            <div class="home-projects-content-item-title">
-              <a href="https://sirodoht.github.io/es6-talk" target="_blank">
-                <h3>ES6 Ghosts</h3>
-              </a>
-            </div>
-            <div class="home-projects-content-item-desc">
-              Presentation of half the features of the then brand spanking new JavaScript edition ES6.
-              At the
-              <a href="https://www.meetup.com/Thessaloniki-Node-js-Meetup/events/229757448/" target="_blank">SKG Node.js meetup</a>
-              of Thessaloniki; March 2016.
-              <a href="https://www.youtube.com/watch?v=poLIoR2i2Zo" target="_blank">The recording is on YouTube</a>.
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </section>
     </div>
