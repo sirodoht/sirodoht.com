@@ -10,6 +10,12 @@ rss_limit = 20
 
 [extra]
     [[extra.projects]]
+    name = "Open Cult"
+    url = "https://opencult.com/"
+    github_url = "https://github.com/sirodoht/opencult.com"
+    description = "Meetup alternative. Crazy fast, ridiculously minimal, built on Django."
+
+    [[extra.projects]]
     name = "Fondi"
     url = "https://github.com/sirodoht/fondi"
     github_url = "https://github.com/sirodoht/fondi"
