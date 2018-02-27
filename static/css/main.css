@@ -272,6 +272,10 @@ p {
   letter-spacing: -0.05px;
 }
 
+ul, ol {
+  margin-left: 20px;
+}
+
 blockquote {
   color: #a8a8a8;
   border-left: 4px solid #e8e8e8;
