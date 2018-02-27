@@ -4,7 +4,7 @@ date = "2018-01-04"
 template = "post.html"
 +++
 
-> A response to Rust’s [Call for Community Blogposts](https://medium.com/@sirodoht/rust-incremental-difficulty-tutorial-series-8c09ecdd38e7) #Rust2018
+> A response to Rust’s [Call for Community Blogposts](https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html) #Rust2018
 
 This is a documentation improvement on learning Rust, derived from personal experience after picking up Rust and reading the Book v1, a few months ago.
 
