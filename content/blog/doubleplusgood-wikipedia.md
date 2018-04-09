@@ -4,7 +4,7 @@ date = "2016-02-29"
 template = "post.html"
 +++
 
-*Updated on Dec 1, 2017.*
+*Updated on Apr 9, 2018.*
 
 I really admire the Wikipedia project. It is a single point of reference for a colossal amount of topics. Had someone access only to Wikipedia and not the rest of the internet, they would still have access to an unprecedented knowledge repository, never witnessed before in the human history.
 
@@ -81,6 +81,8 @@ So, after all these years reading Wikipedia everyday I collected some of my favo
 * [Sunrise equation](https://en.wikipedia.org/wiki/Sunrise_equation). A mathematical way to learn the sunrise and sunset time of a place.
 
 * [Wabi-sabi](https://en.wikipedia.org/wiki/Wabi-sabi). Japanese worldview on the acceptance of imperfection. An alternative "worse is better".
+
+* [NATO phonetic alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet). All these words soldiers talk in movies.
 
 * [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists), the most meta wikipedia article.
 
