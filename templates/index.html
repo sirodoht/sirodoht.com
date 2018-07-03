@@ -66,9 +66,7 @@
           <div class="home-about-desc-content">
             <h2 class="home-about-desc-title">Hello there!</h2>
             <p class="home-about-desc-text">
-              I'm Theodore Keloglou, software engineer
-              <br>
-              and the founder of <a href="https://avocadojobs.com" target="_blank">Avocado Jobs</a>.
+              I'm Theodore Keloglou, software engineer and founder.
               <br>
               Keywords: JavaScript, Node.js, Python, Django, React, AWS.
             </p>
@@ -93,7 +91,7 @@
         </div>
       </section>
 
-      <section class="home-feature">
+      <!-- <section class="home-feature">
         <div class="home-feature-content">
           <a href="https://avocadojobs.com/" target="_blank" class="home-feature-content-cta">
             Avocado Jobs
@@ -108,12 +106,30 @@
             that listings get paid in Ethereum.
           </div>
         </div>
+      </section> -->
+
+      <section class="home-projects">
+        <h2>Projects</h2>
+        <div class="home-projects-content">
+          {% for item in config.extra.projects %}
+            <div class="home-projects-content-item">
+              <div class="home-projects-content-item-title">
+                <a href="{{ item.url }}" target="_blank">
+                  <h3>{{ item.name }}</h3>
+                </a>
+              </div>
+              <div class="home-projects-content-item-desc">
+                {{ item.description|safe }}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
       </section>
 
       <section class="home-projects">
         <h2>Open Source</h2>
         <div class="home-projects-content">
-          {% for item in config.extra.projects %}
+          {% for item in config.extra.open_source %}
             <div class="home-projects-content-item">
               <div class="home-projects-content-item-title">
                 <a href="{{ item.url }}" target="_blank">
