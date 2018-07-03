@@ -10,36 +10,58 @@ rss_limit = 20
 
 [extra]
     [[extra.projects]]
+    name = "Avocado Jobs"
+    url = "https://avocadojobs.com/"
+    description = "Job application tracking for developers."
+
+    [[extra.projects]]
+    name = "KnowHub.app"
+    url = "https://knowhub.app/"
+    description = "Online home for distributed teams."
+
+    [[extra.open_source]]
     name = "Open Cult"
     url = "https://opencult.com/"
     github_url = "https://github.com/sirodoht/opencult.com"
     description = "Meetup alternative. Crazy fast, ridiculously minimal, built on Django."
 
-    [[extra.projects]]
+    [[extra.open_source]]
     name = "Fondi"
     url = "https://github.com/sirodoht/fondi"
     github_url = "https://github.com/sirodoht/fondi"
     description = "Open courses platform built with Node.js, Express, PostgreSQL and React."
 
-    [[extra.projects]]
+    [[extra.open_source]]
     name = "Aspen"
     url = "https://github.com/sirodoht/aspen"
     github_url = "https://github.com/sirodoht/aspen"
     description = "Node.js boilerplate and hackathon starter; Koa, Passport, Sequelize, PostgreSQL, Pug, Jest."
 
-    [[extra.projects]]
+    [[extra.open_source]]
     name = "Ketchup Time"
     url = "https://ketchuptime.xyz/"
     github_url = "https://github.com/sirodoht/ketchup"
     description = "Pomodoro technique timer built with React."
 
-    [[extra.projects]]
+    [[extra.open_source]]
     name = "eddy"
     url = "https://github.com/sirodoht/eddy"
     github_url = "https://github.com/sirodoht/eddy"
     description = """<a href="http://editorconfig.org/" target="_blank">EditorConfig</a> file generator in Rust."""
 
-    [[extra.projects]]
+    [[extra.open_source]]
+    name = "sqone"
+    url = "https://github.com/sirodoht/sqone"
+    github_url = "https://github.com/sirodoht/sqone"
+    description = "Self-hosted email tracker in Node.js."
+
+    [[extra.open_source]]
+    name = "overlap"
+    url = "https://github.com/sirodoht/go-overlap"
+    github_url = "https://github.com/sirodoht/go-overlap"
+    description = "Timezone overlap cli utility in Golang."
+
+    [[extra.open_source]]
     name = "Gift Exchanger 2.0"
     url = "http://christmas.sirodoht.xyz/"
     github_url = "https://github.com/sirodoht/gift-exchanger"
