@@ -84,6 +84,8 @@ So, after all these years reading Wikipedia everyday I collected some of my favo
 
 * [NATO phonetic alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet). All these words soldiers talk in movies.
 
+* [Köppen climate classification](https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification). Detailed climate classification for all earthly places.
+
 * [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists), the most meta wikipedia article.
 
 * [Wikipedia:Unusual_articles](https://en.wikipedia.org/wiki/Wikipedia:Unusual_articles), a meta article, a list with the most unusual articles.
