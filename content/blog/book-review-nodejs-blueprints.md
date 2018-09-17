@@ -1,6 +1,6 @@
 +++
 title = "Book review: Node.js Blueprints"
-date = "2014-07-22"
+date = 2014-07-22
 template = "post.html"
 +++
 

@@ -1,6 +1,6 @@
 +++
 title = "Introducing Open Cult: Ridiculously minimal open source meetup.com alternative"
-date = "2018-03-05"
+date = 2018-03-05
 template = "post.html"
 +++
 

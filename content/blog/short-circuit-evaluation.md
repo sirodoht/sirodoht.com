@@ -1,6 +1,6 @@
 +++
 title = "Short-circuit evaluation"
-date = "2014-06-29"
+date = 2014-06-29
 template = "post.html"
 +++
 

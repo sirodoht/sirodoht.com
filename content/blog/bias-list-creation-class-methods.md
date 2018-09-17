@@ -1,6 +1,6 @@
 +++
 title = "The bias of list creation in the form of class methods"
-date = "2015-09-10"
+date = 2015-09-10
 template = "post.html"
 +++
 

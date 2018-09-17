@@ -1,6 +1,6 @@
 +++
 title = "Free will in a deterministic universe"
-date = "2017-09-11"
+date = 2017-09-11
 template = "post.html"
 +++
 

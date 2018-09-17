@@ -1,6 +1,6 @@
 +++
 title = "Rust incremental-difficulty tutorial series"
-date = "2018-01-04"
+date = 2018-01-04
 template = "post.html"
 +++
 

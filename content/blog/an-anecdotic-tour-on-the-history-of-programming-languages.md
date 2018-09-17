@@ -1,6 +1,6 @@
 +++
 title = "An anecdotic tour on the history of programming languages"
-date = "2017-04-09"
+date = 2017-04-09
 template = "post.html"
 +++
 

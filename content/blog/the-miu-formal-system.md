@@ -1,6 +1,6 @@
 +++
 title = "The MIU formal system"
-date = "2016-04-23"
+date = 2016-04-23
 template = "post.html"
 +++
 

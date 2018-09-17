@@ -1,6 +1,6 @@
 +++
 title = "Coming from Node.js: Ruby on Rails and Django"
-date = "2017-08-22"
+date = 2017-08-22
 template = "post.html"
 +++
 

@@ -1,6 +1,6 @@
 +++
 title = "33 Questions and numeral systems"
-date = "2014-06-27"
+date = 2014-06-27
 template = "post.html"
 +++
 

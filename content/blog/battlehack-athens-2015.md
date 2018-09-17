@@ -1,6 +1,6 @@
 +++
 title = "Battlehack Athens 2015"
-date = "2015-07-15"
+date = 2015-07-15
 template = "post.html"
 +++
 

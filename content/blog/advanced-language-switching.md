@@ -1,6 +1,6 @@
 +++
 title = "Advanced Language Switching"
-date = "2014-12-08"
+date = 2014-12-08
 template = "post.html"
 +++
 

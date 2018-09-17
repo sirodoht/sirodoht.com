@@ -1,6 +1,6 @@
 +++
 title = "Doubleplusgood Wikipedia"
-date = "2016-02-29"
+date = 2016-02-29
 template = "post.html"
 +++
 
