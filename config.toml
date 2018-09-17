@@ -1,6 +1,6 @@
 base_url = "https://sirodoht.xyz"
-title = "Theodore Keloglou | Software Engineer and Founder"
-description = "Personal website of Theodore Keloglou"
+title = "Theodore Keloglou | Software Engineer"
+description = "Blog of Theodore Keloglou"
 language_code = "en"
 compile_sass = false
 highlight_code = true
@@ -10,82 +10,37 @@ rss_limit = 20
 
 [extra]
     [[extra.projects]]
-    name = "Avocado Jobs"
-    url = "https://avocadojobs.com/"
-    description = "Job application tracking for developers."
-
-    [[extra.projects]]
-    name = "KnowHub.app"
-    url = "https://knowhub.app/"
-    description = "Online home for distributed teams."
-
-    [[extra.open_source]]
     name = "Open Cult"
     url = "https://opencult.com/"
     github_url = "https://github.com/sirodoht/opencult.com"
     description = "Meetup alternative. Crazy fast, ridiculously minimal, built on Django."
 
-    [[extra.open_source]]
-    name = "Fondi"
-    url = "https://github.com/sirodoht/fondi"
-    github_url = "https://github.com/sirodoht/fondi"
-    description = "Open courses platform built with Node.js, Express, PostgreSQL and React."
+    [[extra.projects]]
+    name = "skg list"
+    url = "https://skglist.com"
+    github_url = "https://github.com/sirodoht/skglist.com"
+    description = "List for food and drink places in Thessaloniki. Built with Django."
 
-    [[extra.open_source]]
-    name = "Aspen"
-    url = "https://github.com/sirodoht/aspen"
-    github_url = "https://github.com/sirodoht/aspen"
-    description = "Node.js boilerplate and hackathon starter; Koa, Passport, Sequelize, PostgreSQL, Pug, Jest."
-
-    [[extra.open_source]]
-    name = "Ketchup Time"
-    url = "https://ketchuptime.xyz/"
-    github_url = "https://github.com/sirodoht/ketchup"
-    description = "Pomodoro technique timer built with React."
-
-    [[extra.open_source]]
-    name = "eddy"
-    url = "https://github.com/sirodoht/eddy"
-    github_url = "https://github.com/sirodoht/eddy"
-    description = """<a href="http://editorconfig.org/" target="_blank">EditorConfig</a> file generator in Rust."""
-
-    [[extra.open_source]]
+    [[extra.projects]]
     name = "sqone"
     url = "https://github.com/sirodoht/sqone"
     github_url = "https://github.com/sirodoht/sqone"
     description = "Self-hosted email tracker in Node.js."
 
-    [[extra.open_source]]
+    [[extra.projects]]
     name = "overlap"
     url = "https://github.com/sirodoht/go-overlap"
     github_url = "https://github.com/sirodoht/go-overlap"
     description = "Timezone overlap cli utility in Golang."
 
-    [[extra.open_source]]
+    [[extra.projects]]
+    name = "eddy"
+    url = "https://github.com/sirodoht/eddy"
+    github_url = "https://github.com/sirodoht/eddy"
+    description = """<a href="http://editorconfig.org/" target="_blank">EditorConfig</a> file generator in Rust."""
+
+    [[extra.projects]]
     name = "Gift Exchanger 2.0"
     url = "http://christmas.sirodoht.xyz/"
     github_url = "https://github.com/sirodoht/gift-exchanger"
     description = "Gift exchanger for the age of the future."
-
-    [[extra.talks]]
-    name = "HTTP/2 Overview"
-    url = "http://slides.com/sirodoht/http2-overview"
-    description = """Overview of the new protocol of the web at
-        <a href="https://www.meetup.com/PyThess/events/240579669/" target="_blank">PyThess</a>,
-        the Python meetup of Thessaloniki, Greece; June 2017."""
-
-    [[extra.talks]]
-    name = "Javascript Async / Event loop"
-    url = "http://slides.com/sirodoht/event-loop"
-    description = """Dive into how the async nature of JavaScript works and mechanics of the event loop. At the
-        <a href="https://www.meetup.com/Thessaloniki-Node-js-Meetup/events/236095246/" target="_blank">SKG Node.js meetup</a>;
-        December 2016."""
-
-    [[extra.talks]]
-    name = "ES6 Ghosts"
-    url = "https://sirodoht.github.io/es6-talk"
-    description = """Presentation of half the features of the then brand spanking new JavaScript edition ES6.
-        At the
-        <a href="https://www.meetup.com/Thessaloniki-Node-js-Meetup/events/229757448/" target="_blank">SKG Node.js meetup</a>
-        of Thessaloniki; March 2016.
-        <a href="https://www.youtube.com/watch?v=poLIoR2i2Zo" target="_blank">The recording is on YouTube</a>."""
