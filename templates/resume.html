@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
     <link rel="stylesheet" href="{{ get_url(path="css/resume.css") }}">
 
-    <title>Theodore Keloglou | Software Engineer</title>
+    <title>{{ config.title }}</title>
   </head>
   <body>
     <div class="outer-container">
@@ -16,7 +16,7 @@
 
         <div class="header">
           <div class="header-intro">
-            <div class="header-intro-name">Theodore Keloglou</div>
+            <h1 class="header-intro-name">Theodore Keloglou</h1>
             <div class="header-intro-subtitle">Software Engineer</div>
             <div class="header-intro-info">
               <div class="header-intro-info-col">
@@ -39,19 +39,7 @@
             <div class="section">
               <div class="section-title">Professional Experience</div>
               <div class="section-entry">
-                <div class="section-entry-title">Software Engineer</div>
-                <div class="section-entry-company"><a href="https://getsquire.com/">Squire Technologies, Inc.</a></div>
-                <div class="section-entry-details">
-                  <div class="section-entry-details-date">April 2018 - Present</div>
-                  <div class="section-entry-details-location">New York City, United States</div>
-                </div>
-                <div class="section-entry-description">
-                  Working on a fully featured booking and payments system for barbershops.
-                  My role specializes on the Node.js RESTful API and React/Redux frontend.
-                </div>
-              </div>
-              <div class="section-entry">
-                <div class="section-entry-title">Founder</div>
+                <div class="section-entry-title">Founder & Software Engineer</div>
                 <div class="section-entry-company"><a href="https://fuguestateless.com/">Fugue Stateless Ltd</a></div>
                 <div class="section-entry-details">
                   <div class="section-entry-details-date">Jul 2017 - Present</div>
@@ -61,10 +49,36 @@
                   Personal software company.
                   Projects include <a href="https://avocadojobs.com/">Avocado Jobs</a>,
                   a job application tracker for developers and <a href="https://knowhub.app/">KnowHub.app</a>,
-                  an online home for distributed teams.
+                  company documentation for remote teams.
                 </div>
               </div>
               <div class="section-entry">
+                <div class="section-entry-title">Software Engineer (Ethereum)</div>
+                <div class="section-entry-company"><a href="https://cryptokabn.com/">Crypto KABN Holdings Inc.</a></div>
+                <div class="section-entry-details">
+                  <div class="section-entry-details-date">Aug 2018 - Present</div>
+                  <div class="section-entry-details-location">Victoria, Canada</div>
+                </div>
+                <div class="section-entry-description">
+                  I work on the <a href="https://ethereum.org/">Ethereum</a> integration of the <a href="https://cryptokabn.com/">KABN ID platform</a>,
+                  a blockchain-based service that provides KYC and AML processes to companies.
+                  Built with Golang and gRPC.
+                </div>
+              </div>
+              <div class="section-entry">
+                <div class="section-entry-title">Software Engineer (Backend)</div>
+                <div class="section-entry-company"><a href="https://getsquire.com/">Squire Technologies, Inc.</a></div>
+                <div class="section-entry-details">
+                  <div class="section-entry-details-date">April 2018 - July 2018</div>
+                  <div class="section-entry-details-location">New York City, United States</div>
+                </div>
+                <div class="section-entry-description">
+                  Worked on a fully featured booking and payments system for barbershops.
+                  My role specialized on the Node.js RESTful API that was consumed by
+                  the company's web and mobile apps.
+                </div>
+              </div>
+              <!-- <div class="section-entry">
                 <div class="section-entry-title">Backend/DevOps Engineer</div>
                 <div class="section-entry-company"><a href="https://okthess.gr/">OK!Thess</a></div>
                 <div class="section-entry-details">
@@ -77,7 +91,7 @@
                   along with the mentors CRM. Written from scratch using Django,
                   deployed in AWS Elastic Beanstalk using Terraform.
                 </div>
-              </div>
+              </div> -->
               <div class="section-entry">
                 <div class="section-entry-title">Web Developer</div>
                 <div class="section-entry-company">Curly Loop, Inc.</div>
@@ -86,7 +100,7 @@
                   <div class="section-entry-details-location">Thessaloniki, Greece</div>
                 </div>
                 <div class="section-entry-description">
-                  Worked remotely on <a href="https://www.netscan.co/">netscan.co</a>,
+                  Worked on <a href="https://www.netscan.co/">netscan.co</a>,
                   a client-side network diagnostics SaaS startup. Full-stack; Node.js
                   backend, Angular and React frontends. Developed a wide variety
                   of components and services.
@@ -99,14 +113,10 @@
                 <div class="section-description-lead">
                   Avid open source contributor since 2011.
                 </div>
-                Personal projects include <a href="https://opencult.com/">Open Cult</a>,
-                a ridiculously minimal meetup.com alternative,
-                <a href="https://github.com/sirodoht/fondi">Fondi</a>,
-                an open courses platform based on Node.js,
-                <a href="https://github.com/sirodoht/ketchup">Ketchup Time</a>,
-                a Pomodoro timer created with React.js and
-                <a href="https://github.com/sirodoht/eddy">eddy</a>,
-                a CLI EditorConfig file generator in Rust.
+                • <a href="https://opencult.com/">Open Cult</a>, a ridiculously minimal event system (Python/Django)
+                <br>• <a href="https://github.com/sirodoht/skglist.com">skg list</a>, the most voted places in Thessaloniki (Python/Django)
+                <br>• <a href="https://github.com/sirodoht/go-overlap">overlap</a>, a timezone utility (Golang)
+                <br>• <a href="https://github.com/sirodoht/eddy">eddy</a>, a CLI EditorConfig file generator (Rust)
               </div>
             </div>
 
@@ -117,7 +127,7 @@
               <div class="section-title">Technologies</div>
               <div class="section-description">
                 <div class="section-description-lead">
-                  JavaScript, Node.js, Python, Django, React, AWS
+                  JavaScript, Node.js, Python, Django, AWS, Golang
                 </div>
               </div>
             </div>
@@ -151,7 +161,7 @@
                 <div class="section-entry-company"><a href="http://www.uom.gr/">University of Macedonia</a></div>
                 <div class="section-entry-details-generic">Oct 2012 - dropped out</div>
                 <div class="section-entry-description">
-                  4-year degree with syllabus equivalent to Bussiness and
+                  4-year degree with syllabus equivalent to Business and
                   Computing programs.
                 </div>
               </div>
