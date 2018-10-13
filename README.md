@@ -1,6 +1,6 @@
-# sirodoht.xyz
+# sirodoht.com
 
-Source code of [sirodoht.xyz](https://sirodoht.xyz/).
+Source code of [sirodoht.com](https://sirodoht.com/).
 
 Built with [Gutenberg](https://www.getgutenberg.io).
 
