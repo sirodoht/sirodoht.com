@@ -1,4 +1,4 @@
-base_url = "https://sirodoht.xyz"
+base_url = "https://sirodoht.com"
 title = "Theodore Keloglou | Software Engineer"
 description = "Blog of Theodore Keloglou"
 language_code = "en"
@@ -41,6 +41,6 @@ rss_limit = 20
 
     [[extra.projects]]
     name = "Gift Exchanger 2.0"
-    url = "http://christmas.sirodoht.xyz/"
+    url = "http://sirodoht.github.io/gift-exchanger/"
     github_url = "https://github.com/sirodoht/gift-exchanger"
     description = "Gift exchanger for the age of the future."
