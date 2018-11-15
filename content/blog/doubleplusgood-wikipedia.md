@@ -86,7 +86,7 @@ So, after all these years reading Wikipedia everyday I collected some of my favo
 
 * [Köppen climate classification](https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification). Detailed climate classification for all earthly places.
 
-* [Manhattanhenge](https://en.wikipedia.org/wiki/Manhattanhenge)
+* [Manhattanhenge](https://en.wikipedia.org/wiki/Manhattanhenge). When the Manhattan grid lines up with the sun.
 
 * [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists), the most meta wikipedia article.
 
