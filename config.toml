@@ -1,46 +1,9 @@
 base_url = "https://sirodoht.com"
-title = "Theodore Keloglou | Software Engineer"
-description = "Blog of Theodore Keloglou"
+title = "sirodoht"
+description = "Some website."
 language_code = "en"
 compile_sass = false
 highlight_code = true
 highlight_theme = "base16-ocean-light"
 generate_rss = true
 rss_limit = 20
-
-[extra]
-    [[extra.projects]]
-    name = "Open Cult"
-    url = "https://opencult.com/"
-    github_url = "https://github.com/sirodoht/opencult.com"
-    description = "Meetup alternative. Crazy fast, ridiculously minimal, built on Django."
-
-    [[extra.projects]]
-    name = "skg list"
-    url = "https://skglist.com"
-    github_url = "https://github.com/sirodoht/skglist.com"
-    description = "List for food and drink places in Thessaloniki. Built with Django."
-
-    [[extra.projects]]
-    name = "sqone"
-    url = "https://github.com/sirodoht/sqone"
-    github_url = "https://github.com/sirodoht/sqone"
-    description = "Self-hosted email tracker in Node.js."
-
-    [[extra.projects]]
-    name = "overlap"
-    url = "https://github.com/sirodoht/go-overlap"
-    github_url = "https://github.com/sirodoht/go-overlap"
-    description = "Timezone overlap cli utility in Golang."
-
-    [[extra.projects]]
-    name = "eddy"
-    url = "https://github.com/sirodoht/eddy"
-    github_url = "https://github.com/sirodoht/eddy"
-    description = """<a href="http://editorconfig.org/" target="_blank">EditorConfig</a> file generator in Rust."""
-
-    [[extra.projects]]
-    name = "Gift Exchanger 2.0"
-    url = "http://sirodoht.github.io/gift-exchanger/"
-    github_url = "https://github.com/sirodoht/gift-exchanger"
-    description = "Gift exchanger for the age of the future."
