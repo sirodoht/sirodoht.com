@@ -124,6 +124,7 @@ h1 {
 
 .content {
   width: 500px;
+  box-sizing: border-box;
   margin-left: 208px;
   margin-top: 38px;
 }
@@ -134,20 +135,24 @@ h1 {
 }
 @media (max-width: 740px) {
   .content {
+    width: 100%;
     margin-left: 28px;
+    margin-top: 18px;
   }
 }
 
 .menu {
+  width: 150px;
   text-align: right;
+  box-sizing: border-box;
   margin-top: 38px;
   margin-right: 28px;
   margin-left: auto;
-  width: 150px;
 }
 @media (max-width: 740px) {
   .menu {
     grid-row: 1;
+    margin-top: 28px;
   }
 }
 
@@ -178,7 +183,6 @@ h1 {
 }
 
 .posts li {
-  font-size: 110%;
   margin-bottom: 15px;
 }
 
