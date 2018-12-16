@@ -1,10 +1,6 @@
 +++
-title = "Doubleplusgood Wikipedia"
-date = 2016-02-29
-template = "post.html"
+title = "Wikipedia"
 +++
-
-*Updated on Apr 9, 2018.*
 
 I really admire the Wikipedia project. It is a single point of reference for a colossal amount of topics. Had someone access only to Wikipedia and not the rest of the internet, they would still have access to an unprecedented knowledge repository, never witnessed before in the human history.
 
@@ -93,4 +89,3 @@ So, after all these years reading Wikipedia everyday I collected some of my favo
 * [Wikipedia:Unusual_articles](https://en.wikipedia.org/wiki/Wikipedia:Unusual_articles), a meta article, a list with the most unusual articles.
 
 And finally, the [post title reference](https://en.wikipedia.org/wiki/Newspeak#Vocabulary) explained by the protagonist.
-
