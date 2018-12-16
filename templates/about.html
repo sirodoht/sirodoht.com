@@ -1,0 +1,31 @@
+{% extends 'index.html' %}
+
+{% block title %}About • sirodoht{% endblock title %}
+
+{% block content %}
+<div class="content">
+  <img src="{{ get_url(path='img/self.jpg') }}" height="130" alt="self photo" class="photo">
+
+  <p>
+    Email: <a href="mailto:theodorekeloglou@gmail.com">theodorekeloglou@gmail.com</a>.
+  </p>
+
+  <p>
+    <a href="/gpg.txt">GPG key</a>, in case you want to talk about world domination.
+  </p>
+
+  <h3 style="margin-bottom: 0px;">Elsewhere</h3>
+  <p style="margin-top: 0px;">
+    <a href="https://github.com/sirodoht">sirodoht</a> on GitHub; <a href="https://twitter.com/sirodoht">sirodoht</a>
+    on Twitter.
+  </p>
+
+  <h3 style="margin-bottom: 0px;">Website</h3>
+  <p style="margin-top: 0px;">
+    This website design is <a href="https://www.goodreads.com/book/show/13099738-steal-like-an-artist">unashamedly stolen</a>
+    from <a href="https://patrickcollison.com/">patrickcollison.com</a>. It is also open sourced
+    <a href="https://github.com/sirodoht/sirodoht.com">here</a>. The content has been waived of copyrights and lives
+    on the <a href="https://creativecommons.org/publicdomain/zero/1.0/">public domain</a>.
+  </p>
+</div>
+{% endblock content %}
