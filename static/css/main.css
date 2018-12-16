@@ -155,10 +155,10 @@ h1 {
 @media (max-width: 740px) {
   .menu {
     grid-row: 1;
-    margin-top: 18px;
+    margin-top: 8px;
     margin-right: 0;
     margin-left: auto;
-    padding-right: 18px;
+    padding-right: 8px;
   }
 }
 
