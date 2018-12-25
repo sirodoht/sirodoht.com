@@ -28,7 +28,7 @@ Regarding the bitcoin code, it has been deemed by the community that his work re
 
 Satoshi listed his birthdate as April 5, 1975. Probably a random date, but there is wide speculation as to what this date means. Remember, bitcoin conpiracy theory 101: Satoshi does nothing in random.
 
-Regardless, according to that birthdate Satoshi would be 34 years old in 2009. His masterful knowledge of C++, cryptography and distributed concepts reveal only part of his genius. What he managed via Bitcoin is the use of existing technologies in such a way that he created something so radical that changed the journey of current technology. Eveyrbody in tech now talks about blockchain. The reason is the work of one person. He devoted -only- 2 years of his life for this.
+Regardless, according to that birthdate Satoshi would be 34 years old in 2009. His masterful knowledge of C++, cryptography and distributed concepts reveal only part of his genius. What he managed via Bitcoin is the use of existing technologies in such a way that he created something so radical that changed the journey of current technology. Eveyrbody in tech now talks about blockchain. The reason is the work of one person. He devoted—only—2 years of his life for this.
 
 It is, indeed, amazing that every technology Satoshi used as part to form Bitcoin existed for years. However, no one had thought to combine them is such a unique way; at least until then. Historically, it is common for minds at the forefront of human intelligence to discover the same new things independently. Isaac Newton and Gottfried Leibniz independently discovered calculus at the same time, in the mid-17th century, a famous instance of the theory.
 
