@@ -2,7 +2,7 @@
 title = "Wikipedia"
 +++
 
-I really admire the Wikipedia project. It is a single point of reference for a colossal amount of topics. Had someone access only to Wikipedia and not the rest of the internet, they would still have access to an unprecedented knowledge repository, never witnessed before in the human history.
+The Wikipedia project is most admirable. It is a single point of reference for a colossal amount of topics. Had someone access only to Wikipedia and not the rest of the internet, they would still have access to an unprecedented knowledge repository, never witnessed before in the human history.
 
 The answer to how did we get here is also amazing: crowdsourcing. The vision was that anyone could contribute to the initial empty Wikipedia and gradually it would become better than Encyclopædia Britannica. Should someone describe a similar concept today, they would have been laughed off. It would have been dismissed as impossible and the human nature would have been invoked as an argument. However, it was marvelously pulled off.
 
@@ -87,5 +87,3 @@ So, after all these years reading Wikipedia everyday I collected some of my favo
 * [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists), the most meta wikipedia article.
 
 * [Wikipedia:Unusual_articles](https://en.wikipedia.org/wiki/Wikipedia:Unusual_articles), a meta article, a list with the most unusual articles.
-
-And finally, the [post title reference](https://en.wikipedia.org/wiki/Newspeak#Vocabulary) explained by the protagonist.
