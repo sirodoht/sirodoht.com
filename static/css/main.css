@@ -88,6 +88,11 @@ p, ul, ol {
 
 a {
   color: #0864c7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 a:visited {
@@ -170,6 +175,7 @@ h1 {
 
 .menu ul li a {
   color: #0864c7;
+  text-decoration: underline;
 }
 
 .byline {
