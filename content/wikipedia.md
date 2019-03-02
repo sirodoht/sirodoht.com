@@ -86,6 +86,8 @@ So, after all these years reading Wikipedia every day I collected some of my fav
 
 * [Manhattanhenge](https://en.wikipedia.org/wiki/Manhattanhenge). When the Manhattan grid lines up with the sun.
 
+* [Zone of proximal development](https://en.wikipedia.org/wiki/Zone_of_proximal_development) is the difference between what a learner can do without help, and what they can't do.
+
 * [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists), the most meta wikipedia article.
 
 * [Wikipedia:Unusual_articles](https://en.wikipedia.org/wiki/Wikipedia:Unusual_articles), a meta article, a list with the most unusual articles.
