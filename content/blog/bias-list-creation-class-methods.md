@@ -20,9 +20,9 @@ You have two ways of operating:
 
 * Duplicate the original list. Check out every item of the new list, and if it not important remove it.
 
-If you pick the first way, you will have a shorter *important* list than the second way. The reason is that on those items that you are torn whether they are important, you will act with the default action. In the first case the default is not copying them to the new list. In the second case the default action is not removing them from the new list.
+If you pick the first way, you will have a shorter *important* list than the second way. The reason is that on those items that you are torn whether they are important, you will act with the default action. In the first case, the default is not copying them to the new list. In the second case, the default action is not removing them from the new list.
 
-A way which wouldn't cause a bias, is one with no default action. In this case it would be to create two new lists. One is the unimportant items and the other the important ones. Subsequently, there is no default aka *easier* act; either you write the item in the first list or in the second.
+A way which wouldn't cause a bias is one with no default action. In this case, it would be to create two new lists. One is the unimportant items and the other the important ones. Subsequently, there is no default aka *easier* act; either you write the item in the first list or in the second.
 
 This phenomenon applies to the way we wrote the new endpoint controller. Essentially, the *list* was the list of methods in the controllers and the way we operated was the second one, using duplication.
 

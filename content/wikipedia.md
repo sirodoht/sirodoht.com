@@ -2,11 +2,13 @@
 title = "Wikipedia"
 +++
 
-The Wikipedia project is most admirable. It is a single point of reference for a colossal amount of topics. Had someone access only to Wikipedia and not the rest of the internet, they would still have access to an unprecedented knowledge repository, never witnessed before in the human history.
+# Wikipedia
+
+The Wikipedia project is most admirable. It is a single point of reference for a colossal amount of topics. Had someone access only to Wikipedia and not the rest of the internet, they would still have access to an unprecedented knowledge repository, never witnessed before in human history.
 
 The answer to how did we get here is also amazing: crowdsourcing. The vision was that anyone could contribute to the initial empty Wikipedia and gradually it would become better than Encyclopædia Britannica. Should someone describe a similar concept today, they would have been laughed off. It would have been dismissed as impossible and the human nature would have been invoked as an argument. However, it was marvelously pulled off.
 
-So, after all these years reading Wikipedia everyday I collected some of my favorite entries.
+So, after all these years reading Wikipedia every day I collected some of my favorite entries.
 
 * [Benford's law](https://en.wikipedia.org/wiki/Benford%27s_law), also called the first-digit law. Haven't you noticed that there are more 1s than any other digit in the world?
 

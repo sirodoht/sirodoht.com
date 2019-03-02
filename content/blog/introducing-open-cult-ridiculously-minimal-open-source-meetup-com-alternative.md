@@ -14,7 +14,7 @@ Comparing with Meetup, instead of meetup groups, we have cults, hence the name. 
 
 The differences are that you receive exactly one email per event announcement. You receive no confirmation email once you RSVPed in contrast to meetup.com; you know you will go, no reason to archive one more email.
 
-The design is inspired by YC Hacker News. After using HN for many years I’ve come to appreciate its spartan approach. It’s an unpopular opinion (and probably an overreaction for some web design trends) but in the case of meetups I just want the content; no wide margins, no large icons, no images. The content is the event title and description, time & date, location, one email reminder when the event is announced and maybe a few comments to review the event or clarify details.
+The design is inspired by YC Hacker News. After using HN for many years I’ve come to appreciate its spartan approach. It’s an unpopular opinion (and probably an overreaction for some web design trends) but in the case of meetups, I just want the content; no wide margins, no large icons, no images. The content is the event title and description, time & date, location, one email reminder when the event is announced and maybe a few comments to review the event or clarify details.
 
 
 Open Cult loads pretty fast. Here is a speed test [from Stockholm/Europe](https://tools.pingdom.com/#!/eQDknu/https://opencult.com/) and here is [one from NYC/US](https://tools.pingdom.com/#!/dCARVS/https://opencult.com/). The frontend is currently less than 20KB and everything is served with 2 HTTP/2 requests.

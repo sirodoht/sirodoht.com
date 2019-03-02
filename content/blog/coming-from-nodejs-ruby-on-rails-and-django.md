@@ -6,9 +6,9 @@ template = "post.html"
 
 For almost three years now I have been working with Node.js, along with the rest of the gang, Express, Mongo, Angular and React.
 
-I had never worked with Ruby on Rails, Django or any other batteries-included web frameworks, but I had been always hearing that the pros outweigh the cons in many cases, and especially in a CRUD web application. CRUDs did play a major role on the Node.js applications I was working on, so I decided to try Rails and Django to see if indeed and particularly how much better they are.
+I had never worked with Ruby on Rails, Django or any other batteries-included web frameworks, but I had been always hearing that the pros outweigh the cons in many cases, and especially in a CRUD web application. CRUDs did play a major role in the Node.js applications I was working on, so I decided to try Rails and Django to see if indeed and particularly how much better they are.
 
-I decided to play with those two, since they were the most famous and appealing.
+I decided to play with those two since they were the most famous and appealing.
 
 ## Ruby on Rails
 
@@ -24,7 +24,7 @@ The next thing that amazed me was the way you can have a model with REST endpoin
 
 Assuming we have a model, `Post`, you can just say `resources :posts` in your routes file and you get all REST endpoints, just like that, one line.
 
-In order to do this using Node.js and Express quite a few hours have to be spent. Additionally to the hours you need to setup the whole project, file architecture, ORM, routing, testing, etc.
+In order to do this using Node.js and Express quite a few hours have to be spent. Additionally to the hours you need to set up the whole project, file architecture, ORM, routing, testing, etc.
 
 The last, of the top 3 things that impressed me is how Rails passes view parameters from the controller methods to the template. They just pass every variable defined! You don’t have to create an object with the ones you want, Rails sends everything for you, and you can use the one you want.
 
@@ -62,7 +62,7 @@ Firstly, Django refuses to serve static files in production. It does not have a 
 
 This, along with with the fact that Django doesn’t handle by default stuff like separation of development/production/testing environments and database url parsing made the deployment a little bit more cumbersome than Rails and Node.js, but still pretty easy with dokku.
 
-To conclude with Django, the only thing I’m concerned with is REST endpoints. There is Django REST framework but I have not tried it, and I’ve heard it doesn’t have the the most straightforward documentation.
+To conclude with Django, the only thing I’m concerned with is REST endpoints. There is Django REST framework but I have not tried it, and I’ve heard it doesn’t have the most straightforward documentation.
 
 All in all, I liked Rails and Django and I’m very interested in working more with them. Finally, despite risking oversimplification of any project’s requirements I’d say that I would choose Django for CRUDs, and Rails for REST APIs. The shortcuts they provide, respectively for those use cases, are awesome.
 

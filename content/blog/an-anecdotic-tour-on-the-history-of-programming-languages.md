@@ -44,17 +44,17 @@ Due to this history, Haskell is considered an academic language and does not hav
 
 One year later, only in 1991, Guido van Rossum released the first version of Python. 🎉. He really enjoyed Monty Python, so he thought to use half their name. After all, it’s also a snake.
 
-Guido didn’t want to just create a language. He had a vision, and a mantra. The Zen of Python, as they call it, is the core philosophy of the language. It includes abstract comparisons between concepts such as beauty, simplicity and complexity, and it is adored by all Pythoneers.
+Guido didn’t want to just create a language. He had a vision, and a mantra. The Zen of Python, as they call it, is the core philosophy of the language. It includes abstract comparisons between concepts such as beauty, simplicity, and complexity, and it is adored by all Pythoneers.
 
 Despite and along with all that, a lot of people came to like Python. It is also very multi-paradigm. It is imperative, object-oriented and with multiple Lisp-like functional features. It was the first language to put first the intuitiveness of the user in contrast of the underlying mechanisms of the compiler.
 
 Four years later, in 1995, NASA’s Galileo Probe entered Jupiter’s atmosphere and the Sudden Oak Death (SOD) was first reported. *Phytophthora ramorum*, the oomycete plant pathogen behind SOD, is the reason that many oak populations in California and Oregon died. It is also believed that this organism is the cause of a proportionally large number of successful programming languages being created this year, both in California and in other areas too.
 
-The spotlight on Java, JavaScript, PHP and Ruby.
+The spotlight on Java, JavaScript, PHP, and Ruby.
 
 Yukihiro Matsumoto was writing mostly Perl and he was happy about it. He was also quite intrigued by Python, but with some complaints present:
 
-> It seems to me that Python is not a true object oriented language. I’d say it’s an imposter. OOP features appear to be some kind of add-on. As if they said “yeah, throw that inside too”.
+> It seems to me that Python is not a true object oriented language. I’d say it’s an imposter. OOP features appear to be some kind of add-on. As if they said, “yeah, throw that inside too”.
 
 It was obvious that Guido wanted to support many paradigms, so object-oriented concepts were not top priority in the language design process.
 
@@ -94,13 +94,13 @@ This is quite interesting as it turns out, because the language that does fulfil
 
 And thus, we reach the final item on the 1995 list. JavaScript.
 
-There are many programming languages in this world, and their distribution in respect to language design is [Gaussian](https://en.wikipedia.org/wiki/Normal_distribution). The majority has a good design; some have somewhat good or somewhat bad design; and very few have an outstanding design or a horrifying one. Had you been asked to choose from one of those categories for the language that would run to the greatest number of computers ever, which would you pick? As it turns out, we did end up beyond three sigma, just not the positive edge. The spread was gradual, few noticed.
+There are many programming languages in this world, and their distribution with respect to language design is [Gaussian](https://en.wikipedia.org/wiki/Normal_distribution). The majority has a good design; some have somewhat good or somewhat bad design; and very few have an outstanding design or a horrifying one. Had you been asked to choose from one of those categories for the language that would run to the greatest number of computers ever, which would you pick? As it turns out, we did end up beyond three sigma, just not the positive edge. The spread was gradual, few noticed.
 
 It was a cold afternoon of 1995, at the Netscape Communications HQ in Mountain View, CA, when the company hired Brendan Eich to embed Scheme inside their browser, Netscape Navigator. It was only Scheme, a Lisp dialect; what could go wrong? However, as fast a developer as he was, he wasn’t able to start working on it until something, well… everything changed.
 
 It took Brendan ten days to create a prototype of a language called *Mocha*. *Another* coffee related word you might think? Might there be an off chance they are related? Indeed, Netscape made a deal with Sun Microsystems to include a lightweight scripting Java-like language to compete with Microsoft. Mocha seemed an appropriate name. It was a beautiful name, but it was deemed as a missed opportunity to advertise Java; so after a brief stint with *LiveScript*, *JavaScript* was conceived.
 
-Brendan had a vision with Mocha, and JavaScript is influenced by a wide variety of different paradigms of languages. Features like first class functions, prototypal inheritance and event driven are what make JavaScript such an interesting language to work with. Furthermore, JavaScript due to its quirks and design flaws is a difficult language to master given its simple (yet elusive) features. Some say this perpetual challenge motivates them; others stay away while appreciating their lack of masochism.
+Brendan had a vision with Mocha, and JavaScript is influenced by a wide variety of different paradigms of languages. Features like first class functions, prototypal inheritance, and event driven are what make JavaScript such an interesting language to work with. Furthermore, JavaScript due to its quirks and design flaws is a difficult language to master given its simple (yet elusive) features. Some say this perpetual challenge motivates them; others stay away while appreciating their lack of masochism.
 
 After 1995 and until the end of the decade not much happened.
 
@@ -136,7 +136,7 @@ Go has been widely criticized that it threw some decades of programming experien
 
 As far as concurrency is concerned, there are two primitives in Go, namely goroutines and channels, which implement what is known as *Communicating Sequential Processes*, an idea first described by Tony Hoare (the human who invented *quicksort*, and other important CS theories). This is considered one of the strong points of Go.
 
-One year later, in 2010, a personal project of Graydon Hoare’s was announced by Mozilla that it is being sponsored. The beautifully named *Rust* lang, was quietly born in 2006 and it took only 9 years to reach 1.0, in 2015. Since then, it has been one of the [most loved](https://stackoverflow.com/insights/survey/2017#most-loved-dreaded-and-wanted) programming languages.
+One year later, in 2010, a personal project of Graydon Hoare’s was announced by Mozilla that it is being sponsored. The beautifully named *Rust* lang was quietly born in 2006 and it took only 9 years to reach 1.0, in 2015. Since then, it has been one of the [most loved](https://stackoverflow.com/insights/survey/2017#most-loved-dreaded-and-wanted) programming languages.
 
 It is fascinating how much thought has been poured into the design of this language, and particularly the design of its type system, its unique feature. Rust is designed to be memory safe. It achieves this through concepts such as *owned variables*, *borrowed pointers* and *variable lifetime management*. In addition, it does not support classical inheritance but it has a *trait* system, inspired by Haskell.
 
@@ -150,7 +150,7 @@ Erlang is a language from 1986, created at Ericsson, and remaining proprietary u
 
 Given that he said this in 2013 can we hold him accountable for Erlang if Java doesn’t turn out to be “run everywhere”? 😏
 
-Erlang has a proven track record of large scale, distributed, high availability web services. Furthermore, it has some magnificent characteristics like fault tolerance, hot code swapping and pattern matching. José Valim decided to merge these breathtaking features with some other, friendlier ones, along with some Ruby ideas. The result is Elixir.
+Erlang has a proven track record of large scale, distributed, high availability web services. Furthermore, it has some magnificent characteristics like fault tolerance, hot code swapping, and pattern matching. José Valim decided to merge these breathtaking features with some other, friendlier ones, along with some Ruby ideas. The result is Elixir.
 
 Elixir is fully compatible with Erlang’s VM, *BEAM*. It also provides nice tooling, which Erlang does not have, and it has successfully won over people, mainly from the Ruby community. Its flagship web framework is *Phoenix* which has accumulated rave reviews.
 
@@ -158,7 +158,7 @@ Chris Lattner, the legend behind LLVM, while at Apple, invented and led the deve
 
 The memory management is done using *Automatic Reference Counting* (ARC), which includes compile-time memory deallocation decisions, a Rust resemblance. Swift, a year after its announcement became open source, which enabled developers to extend it beyond Apple’s interfaces. Its use on other domains like the web is rising, as does the adoption from other companies.
 
-The history of programming languages is very interesting to read about. It urges you to make predictions for the future. My bet is that Swift, Rust and Go will win over many domains, with the largest one being that of C and C++.
+The history of programming languages is very interesting to read about. It urges you to make predictions for the future. My bet is that Swift, Rust, and Go will win over many domains, with the largest one being that of C and C++.
 
 Hopefully, after 45 years, C will pass the scepter and let us prove to ourselves that we now know software better.
 

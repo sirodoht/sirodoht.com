@@ -4,7 +4,7 @@ date = 2016-04-23
 template = "post.html"
 +++
 
-When I started my undergraduate studies on Computer Science I was very enthusiastic about the theoretical foundations I was about to learn. In this quest I googled “best computer science books”. This will get you most of the CS classic and among them you will find *[Gödel, Escher, Bach: An Eternal Golden Braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)*, a quite peculiar book.
+When I started my undergraduate studies on Computer Science I was very enthusiastic about the theoretical foundations I was about to learn. In this quest, I googled “best computer science books”. This will get you most of the CS classic and among them, you will find *[Gödel, Escher, Bach: An Eternal Golden Braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)*, a quite peculiar book.
 
 *Gödel, Escher, Bach: An Eternal Golden Braid* (GEB from here on) started as a treatise on the proof of Gödel’s [Incompleteness Theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems#First_incompleteness_theorem), two of the most disruptive theorems in the field of Mathematics.
 
@@ -20,7 +20,7 @@ The second theorem takes one step further. It states that if in a formal system 
 
 Douglas Hofstadter was also astonished by not only the theorems themselves, but also by the incredible proofs that Gödel provided. Thus, he started a treatise on that proof. However, Hofstadter thanks to his polymath personality discovered that the ideas underlying Gödel’s proof, apart from our mind, could also be perceived by our eyes and ears. He presents this to us through the works of Johann Sebastian Bach and M. C. Escher respectively.
 
-In this journey he elaborates on many topics. One of them is formal systems and in this realm he presents a puzzle, the infamous MU puzzle.
+In this journey, he elaborates on many topics. One of them is formal systems and in this realm, he presents a puzzle, the infamous MU puzzle.
 
 ## The MU Puzzle
 
@@ -36,7 +36,7 @@ Let us assume a formal language MIU. Its alphabet is three letters: `M`, `I` and
 
 The challenge is to produce the string `MU`, or prove it cannot be produced.
 
-Nota bene: These are one way rules. In addition, sometimes, more than one rules may be valid to be applied; in this case you have to pick the best fitting one in order to reach the desired string, `MU`.
+Nota bene: These are one-way rules. In addition, sometimes, more than one rules may be valid to be applied; in this case, you have to pick the best fitting one in order to reach the desired string, `MU`.
 
 These theories, namely formal systems, grammars, languages, inference rules, etc, belong to the domain of [Computation Theory](https://en.wikipedia.org/wiki/Theory_of_computation). It’s a very interesting, though deeply theoretical domain of Mathematics and Computer Science.
 

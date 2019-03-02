@@ -4,7 +4,7 @@ date = 2014-06-29
 template = "post.html"
 +++
 
-Short-circuit evaluation is something that as a junior programmer I did not not read about but I encountered it in practice.
+Short-circuit evaluation is something that as a junior programmer I did not read about but I encountered it in practice.
 
 In C [1] you can do something like this:
 
@@ -15,7 +15,7 @@ if (i++ < 10 && j++ < 20)
 }
 ```
 
-In this case if `i < 10` is false, the C compiler will not care to check `j < 20` since it has already decided that it will not enter the if-statement. This is because there is an AND - `&&` operator and since the first part was not true, there is no way for the whole to be true. The problem in this case is that, the condition that won't be checked also includes a variable assignment. This means that you may expect it to run at least one time, but it won't, since C understands there is no point in wasting time to do this.
+In this case if `i < 10` is false, the C compiler will not care to check `j < 20` since it has already decided that it will not enter the if-statement. This is because there is an AND - `&&` operator and since the first part was not true, there is no way for the whole to be true. The problem, in this case, is that the condition that won't be checked also includes a variable assignment. This means that you may expect it to run at least one time, but it won't, since C understands there is no point in wasting time to do this.
 
 Of course, after you learn this you can use it to your own ends.
 

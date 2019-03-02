@@ -12,7 +12,7 @@ The book starts with a chapter on some programming paradigms that are currently 
 
 The following chapters are mainly concerned with the most important libraries on the Node.js ecosystem. The first library the author chose to present us is Express (probably expected). We go through a basic site while learning Express. The author, along with every JS library, walks us through a tutorial with a sample web application. He continues with chapters on Angular and sample blog, socket.io and chat app, backbone and to-do app, ember and social feed app.
 
-Apart from the above libraries there is material on automation, testing, dynamics CSS, REST API and Node.js desktop apps.
+Apart from the above libraries, there is material on automation, testing, dynamics CSS, REST API, and Node.js desktop apps.
 
 Suitable for those who want a start on Node.js and its ecosystem, Node.js Blueprints is a pretty good book. The author's approach with example web apps on each library is very good. Every chapter is clear while after finishing it you have learned what you need to start and decide whether you want to dive further into.
 
