@@ -160,7 +160,7 @@ h3 {
 }
 
 .menu {
-  width: 300px;
+  width: 150px;
   text-align: right;
   box-sizing: border-box;
   margin-top: 38px;
@@ -169,6 +169,7 @@ h3 {
 }
 @media (max-width: 740px) {
   .menu {
+    width: 300px;
     grid-row: 1;
     margin-top: 8px;
     margin-right: 0;
