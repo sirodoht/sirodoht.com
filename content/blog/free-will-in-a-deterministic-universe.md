@@ -36,7 +36,3 @@ Another argument which exposes this probabilistic nature of quantum mechanical p
 Certainly, there are definitions for randomness in other science disciplines too. For example, computer scientists argue about pseudo-random and cryptographically secure pseudo-random number generators. In biology, the diversity of life is attributed to random genetic mutations. In statistics, statistically random can refer to a numeric sequence when it contains no recognizable patterns. The usage of the concept in these cases adds more complicacy to its definition, as the fundamental notion is not clear. Apart from the convoluted saturation of the word, it is also clear how fundamental randomness is across all of science.
 
 In conclusion, many views have been heard since the antiquity on the topic of free will. Unfortunately, none of them is convincing enough for the advocates of the other views. The rise of quantum physics in the last centuries, though, has had some unexpected consequences on this topic because of the theory’s relations to randomness. Hopefully cracking quantum mechanics will also mean the unraveling of randomness, determinism, and ideally free will and eventually consciousness.
-
----
-
-*This article was also published on [ART + marketing](https://artplusmarketing.com/free-will-in-a-deterministic-universe-7bde2860213).*

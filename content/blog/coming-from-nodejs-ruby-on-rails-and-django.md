@@ -65,7 +65,3 @@ This, along with with the fact that Django doesn’t handle by default stuff lik
 To conclude with Django, the only thing I’m concerned with is REST endpoints. There is Django REST framework but I have not tried it, and I’ve heard it doesn’t have the most straightforward documentation.
 
 All in all, I liked Rails and Django and I’m very interested in working more with them. Finally, despite risking oversimplification of any project’s requirements I’d say that I would choose Django for CRUDs, and Rails for REST APIs. The shortcuts they provide, respectively for those use cases, are awesome.
-
----
-
-*This article was also published on [HackerNoon](https://hackernoon.com/coming-from-node-js-ruby-on-rails-and-django-6c6c9390e31a).*

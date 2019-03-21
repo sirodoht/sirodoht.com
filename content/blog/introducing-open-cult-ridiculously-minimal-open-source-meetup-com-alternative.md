@@ -22,8 +22,3 @@ Open Cult loads pretty fast. Here is a speed test [from Stockholm/Europe](https:
 As far as mobile responsiveness, a major pain point for me with meetup.com, Open Cult performs marvelously. Apart from the Lilliputian size, its barebones HTML elements will use the OS native date and time pickers, making new event submissions on mobile a breeze.
 
 Finally, Open Cult is built on Python and Django, and [lives on GitHub](https://github.com/sirodoht/opencult.com) as an open source project. Please feel free to contribute, as one pair of eyeballs is not nearly enough for all bugs. Also, consider proposing and discussing new features and UX-first design improvements. Check some ideas [here](https://github.com/sirodoht/opencult.com/issues).
-
-
----
-
-*This article was also published [on Medium](https://medium.com/@sirodoht/introducing-open-cult-ridiculously-minimal-open-source-meetup-com-alternative-ff5036b315b).*
