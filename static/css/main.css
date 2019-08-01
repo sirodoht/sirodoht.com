@@ -130,6 +130,7 @@ h3 {
   display: block;
   margin-bottom: 40px;
   color: #dc143c;
+  font-weight: 400;
 }
 @media (max-width: 500px) {
   .brand a {
