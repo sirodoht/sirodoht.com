@@ -1,31 +1,20 @@
 {% extends 'index.html' %}
 
-{% block title %}About • sirodoht{% endblock title %}
+{% block title %}About sirodoht{% endblock title %}
 
 {% block content %}
 <div class="content">
   <h1>About</h1>
   <img src="{{ get_url(path='img/self.jpg') }}" height="130" alt="self photo" class="photo">
-
-  <h2>Contact</h2>
   <p>
-    Email: <a href="mailto:theodorekeloglou@gmail.com">theodorekeloglou@gmail.com</a>.
-    <br>
-    <a href="/gpg.txt">GPG key</a>, in case you want to talk about world domination.
+    Hi, I'm Theodore Keloglou.
   </p>
-
-  <h2>Elsewhere</h2>
   <p>
-    <a href="https://github.com/sirodoht">sirodoht</a> on GitHub; <a href="https://twitter.com/sirodoht">sirodoht</a>
-    on Twitter.
+    Definitely send me email at <a href="mailto:theodorekeloglou@gmail.com">theodorekeloglou@gmail.com</a>.
   </p>
-
-  <h2>Website</h2>
   <p>
-    This website design is <a href="https://www.goodreads.com/book/show/13099738-steal-like-an-artist">unashamedly stolen</a>
-    from <a href="https://patrickcollison.com/">patrickcollison.com</a>. Its code is
-    <a href="https://github.com/sirodoht/sirodoht.com">on GitHub</a>, and the content has been waived of copyrights and lives
-    on the <a href="https://creativecommons.org/publicdomain/zero/1.0/">public domain</a>.
+    All content on this site is available under a <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 license</a> (Public Domain Dedication).
   </p>
+  <a href="/">← blog</a>
 </div>
 {% endblock content %}
