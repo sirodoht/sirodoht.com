@@ -1,8 +1,8 @@
 +++
 title = "Role Models"
+date = 2019-03-02
+template = "post.html"
 +++
-
-# Role Models
 
 These are the fireflies that [flash faster](https://ncase.me/fireflies/).
 

@@ -1,8 +1,8 @@
 +++
-title = "Wikipedia"
+title = "Doubleplusgood Wikipedia"
+date = 2016-02-29
+template = "post.html"
 +++
-
-# Wikipedia
 
 The Wikipedia project is most admirable. It is a single point of reference for a colossal amount of topics. Had someone access only to Wikipedia and not the rest of the internet, they would still have access to an unprecedented knowledge repository, never witnessed before in human history.
 
