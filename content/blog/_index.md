@@ -1,4 +1,4 @@
 +++
-template = "blog.html"
 sort_by = "date"
+redirect_to = "/"
 +++

@@ -9,20 +9,25 @@
     <link rel="stylesheet" href="{{ get_url(path='css/main.css') }}">
   </head>
   <body>
-    <div class="grid">
-      {% block content %}
-      <div class="content">
-      </div>
-      {% endblock content %}
-      <div class="menu">
-        <span>Theodore Keloglou</span>
-        <ul>
-          <li><a href="/about/">About</a></li>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/wikipedia/">Wikipedia</a></li>
-          <li><a href="/role-models/">Role Models</a></li>
-        </ul>
-      </div>
+    {% block content %}
+    <div class="content">
+      <h1 class="brand"><a href="/">sirodoht blog</a></h1>
+      <ul class="posts">
+        {% set blog = get_section(path='blog/_index.md') %}
+        {% for post in blog.pages %}
+        <li>
+          <a href="{{ post.permalink }}">{{ post.title }}</a>
+          <time datetime="{{ post.date | date(format="%+") }}" itemprop="datePublished">{{ post.date | date(format='%B %e, %Y') }}</time>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
+
+    <footer>
+      <br>---
+      <br>&copy; sirodoht. <a href="/about">About</a>.
+      <br>All content on this site is available under a <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 license</a>.
+    </footer>
+    {% endblock content %}
   </body>
 </html>
