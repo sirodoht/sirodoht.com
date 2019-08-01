@@ -132,7 +132,7 @@ h3 {
   color: #dc143c;
   font-weight: 400;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .brand a {
     margin-top: 8px;
     margin-bottom: 24px;
@@ -154,7 +154,7 @@ h3 {
     margin-left: 58px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .content {
     width: 100%;
     margin-left: 0;
@@ -179,7 +179,7 @@ footer {
     margin-left: 58px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   footer {
     width: 100%;
     margin-left: 0;
