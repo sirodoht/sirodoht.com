@@ -18,7 +18,7 @@ DHH is [very vocal](https://twitter.com/dhh) of his views of the world and his [
 
 Among millions of academics and scientists worldwide, there was no one that could actualize a most foundational freedom of their discipline: read scientific papers freely, without subscriptions or paywalls. Thankfully Alexandra, exception to the previous statement, defied all evil legislators and built [Sci-Hub](https://whereisscihub.now.sh/), a simple file sharing site that pirates paywalled scientific papers.
 
-The significance of Sci-Hub is comparable to that of another massively impactful invention, [Wikipedia](/blog/wikipedia/). Alexandra, literally as the [defender of man](https://en.wikipedia.org/wiki/Alexandra), upgraded mankind's knowledge dexterity like few have done. Let us hope her contribution to the world heritage increases -at worst- [line](https://www.insidehighered.com/news/2019/01/14/elsevier-journal-editors-resign-start-rival-open-access-journal)[arly](https://www.universityofcalifornia.edu/press-room/uc-terminates-subscriptions-worlds-largest-scientific-publisher-push-open-access-publicly).
+The significance of Sci-Hub is comparable to that of another massively impactful invention, [Wikipedia](/blog/doubleplusgood-wikipedia/). Alexandra, literally as the [defender of man](https://en.wikipedia.org/wiki/Alexandra), upgraded mankind's knowledge dexterity like few have done. Let us hope her contribution to the world heritage increases -at worst- [line](https://www.insidehighered.com/news/2019/01/14/elsevier-journal-editors-resign-start-rival-open-access-journal)[arly](https://www.universityofcalifornia.edu/press-room/uc-terminates-subscriptions-worlds-largest-scientific-publisher-push-open-access-publicly).
 
 **Elon Musk**
 
