@@ -113,6 +113,12 @@ blockquote {
   margin-left: 0;
 }
 
+pre {
+  padding: 8px;
+  border-radius: 2px;
+  overflow-y: scroll;
+}
+
 h1 {
   margin-top: 0;
 }
