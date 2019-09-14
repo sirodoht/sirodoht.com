@@ -16,8 +16,7 @@ The differences are that you receive exactly one email per event announcement. Y
 
 The design is inspired by YC Hacker News. After using HN for many years I’ve come to appreciate its spartan approach. It’s an unpopular opinion (and probably an overreaction for some web design trends) but in the case of meetups, I just want the content; no wide margins, no large icons, no images. The content is the event title and description, time & date, location, one email reminder when the event is announced and maybe a few comments to review the event or clarify details.
 
-
-Open Cult loads pretty fast. Here is a speed test [from Stockholm/Europe](https://tools.pingdom.com/#!/eQDknu/https://opencult.com/) and here is [one from NYC/US](https://tools.pingdom.com/#!/dCARVS/https://opencult.com/). The frontend is currently less than 20KB and everything is served with 2 HTTP/2 requests.
+Open Cult loads extremely fast. The frontend is currently less than 20KB and everything is served with 2 HTTP/2 requests.
 
 As far as mobile responsiveness, a major pain point for me with meetup.com, Open Cult performs marvelously. Apart from the Lilliputian size, its barebones HTML elements will use the OS native date and time pickers, making new event submissions on mobile a breeze.
 
