@@ -32,11 +32,13 @@ Despite Elon's jaw-dropping achievements, his quality, humbleness, and originali
 
 Patrick is the founder and CEO of [Stripe](https://stripe.com/), a payment processing company. Stripe as a technology company has set a new standard of software quality. Most probably, there isn't a single piece of software better designed, most aesthetically pleasing than the UX king, Stripe.
 
-On his regularly updated [website](https://patrickcollison.com/), Patrick voices his opinions. I have come to really enjoy his writings, thoughts and book reviews. Strongly recommended.
+On his regularly updated [website](https://patrickcollison.com/), Patrick voices his opinions. I have come to really enjoy his writings, thoughts, and book reviews. Strongly recommended.
 
 **Gwern Brawnen**
 
-[Gwern](https://www.gwern.net/) is an independent researcher. His work is on a variety of fields, but mostly levitating between psychology  and technology. Some of my favorite of his articles are:
+Gwern is an independent researcher that publishes extremely interesting and high quality research. [His website](https://www.gwern.net/) is unique. Apart from the great minimalistic aesthetics, the content is vast, compeling, high quality.
+
+His work is on a variety of fields, but mostly levitating between psychology and technology. Some of his articles:
 
 * [Spaced repetition](https://www.gwern.net/Spaced-repetition)
 * [Silk Road 1: Theory & Practice](https://www.gwern.net/Silk-Road)
@@ -47,3 +49,11 @@ On his regularly updated [website](https://patrickcollison.com/), Patrick voices
 * [Terrorism is not about Terror](https://www.gwern.net/Terrorism-is-not-about-Terror)
 
 He has also contributed greatly in the [English Wikipedia](https://www.gwern.net/Wikipedia-resume) and the [Haskell community](https://www.gwern.net/Links#coding-contributions).
+
+**Derek Sivers**
+
+I recently re-discovered [sirvers.org](https://sivers.org/), the website of Derek Sivers. It's very fast and very simple. Minimalism is a core part of Derek's philosophy, and he is so radical about his life philosophy that inspires you to be too.
+
+He is mainly an author, but also a programmer, and a successful enterpreneur. It is extremely interesting that he started CDBaby, his first business, failthful to the lean startup philosophy without ever knowing about it. He just did what made sense, and simply enough, not only did it work but he succeeded in creating an independent company with a product that people really want.
+
+His [blog articles](https://sivers.org/blog) are always insightful and portray a line of thought so original, nowhere to be found.
