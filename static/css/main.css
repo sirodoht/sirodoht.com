@@ -304,6 +304,7 @@ footer {
 .posts time {
   font-size: 12px;
   color: #aaa;
+  white-space: nowrap;
 }
 @media (min-width: 2400px) {
   .posts time {
