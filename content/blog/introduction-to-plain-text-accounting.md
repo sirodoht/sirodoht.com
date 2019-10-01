@@ -32,7 +32,7 @@ After several minutes I settled on ledger-cli. The documentation and the input m
 
 ## Getting started
 
-I loved the brutal simplicity of [ledger-cli's website](https://www.ledger-cli.org/) and at the same time shocked with the abundance of information on their [docs](https://www.ledger-cli.org/3.0/doc/ledger3.html). However, I had already realized that I had learned enough (in the software comparison phase) to be able to cover my bookkeeping needs, so who cares about reading any more docs.
+I loved the brutal simplicity of [ledger-cli's website](https://www.ledger-cli.org/) and at the same time was shocked with the abundance of information on their [docs](https://www.ledger-cli.org/3.0/doc/ledger3.html). However, I had already realized that I had learned enough (in the software comparison phase) to be able to cover my bookkeeping needs, so who cares about reading any more docs.
 
 To get started in your PTAJ, you need to reflect your current financial state in a plain text file. I created a file named `ledger.txt` with the following content:
 
@@ -114,6 +114,75 @@ All records follow one thread, keeping track of one number.
 Double-entry accounting keeps track of multiple numbers. Also, it always keeps track of the source and the destination of the money being transfered. The accounting lingo is `credit` and `debit`. Now, every time there is a change in the numbers we keep track of, we update them. Since a change is a transfer from one to another, we will always update (at least) two accounts. However, every entry must be balanced - equal amount of money needs to be at the source and at the destination. We can neither create money out of thin air, nor make it disappear. Money has to come from somewhere and go somewhere.
 
 This is the point of the `Equity:Opening Balances` account. It is a sub-account of our `equity`, "the real value of our property", useful for explaining from where our money comes from when we start our bookkeeping records.
+
+## Budgeting
+
+Keeping a budget might be one of the main benefits for the pain of maintaining a double-entry accounting system for personal finances. Here is how it's done in ledger-cli.
+
+To set a budget you need to set a `periodic transaction` (notice the tilde). At the top of your `ledger.txt`:
+
+```
+~ Monthly
+    Expenses:Food       $300.00
+    Assets:Checking
+```
+
+This says that we can spend at most $450 in the `Expenses:Food` account, per month.
+
+Assuming our `ledger.txt` is this:
+
+```
+~ Monthly
+    Expenses:Food       $300.00
+    Assets:Checking
+
+2019/09/10 * Food part one
+    Expenses:Food       $100.0
+    Assets:Checking
+```
+
+Then:
+
+```
+$ ledger -f ledger.txt --budget balance food
+            $-200.00  Expenses:Food
+```
+
+This means we can spend $200 for food.
+
+Let's assume a few days we spend more on food, and our `ledger.txt` becomes like this:
+
+```
+~ Monthly
+    Expenses:Food       $300.00
+    Assets:Checking
+
+2019/09/10 * Food part one
+    Expenses:Food       $100.0
+    Assets:Checking
+
+2019/09/20 * Food part two
+    Expenses:Food       $250.0
+    Assets:Checking
+```
+
+Then:
+
+```
+$ ledger -f ledger.txt --budget balance food
+              $50.00  Expenses:Food
+```
+
+This command tells us we are over our `Expenses:Food` budget by $50.
+
+## Limit reporting by date
+
+Ledger-cli, by default, reads the whole file when reporting. This is pretty useless since one will need to keep track mostly monthly (or even yearly) expenses. There are many ways to limit the date of reporting. One of them is by using `-b` (beging) and `-e` (end).
+
+```
+$ ledger -f ledger.txt -b 2019-09-01 -e 2019-09-31 --budget balance food
+             $50.00  Expenses:Food
+```
 
 ## More PTAJ fun
 
@@ -200,7 +269,7 @@ echo "💸 $OVERVIEW"
 echo "---"
 echo "Cash $CASH"
 echo "Checking $CHECKING"
-echo "Savings $Savings"
+echo "Savings $SAVINGS"
 echo "Pending $PENDING"
 echo "Liabilities $LIABILITIES"
 echo "Stock $STOCK"
@@ -208,6 +277,6 @@ echo "Stock $STOCK"
 
 ## Epilogue
 
-Ledger-cli accounting is more entertaining than expected :P
+Ledger-cli accounting is more entertaining than expected.
 
 The [Ledger-cli docs](https://www.ledger-cli.org/3.0/doc/ledger3.html) are a great resource to learn, despite initial trauma due to magnitude. Additionally, [plaintextaccounting.org](https://plaintextaccounting.org/) is everything PTA.
