@@ -117,8 +117,14 @@ body {
   }
 }
 
-p, ul, ol {
+p {
   color: #333;
+  line-height: 27px;
+}
+
+ul, ol {
+  color: #333;
+  line-height: 22px;
 }
 
 a {
@@ -194,7 +200,7 @@ h3 {
 .brand a {
   display: block;
   font-size: 40px;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
   color: #f00;
 }
 @media (max-width: 650px) {
@@ -222,12 +228,17 @@ h3 {
   text-align: right;
   text-decoration: none !important;
 }
+@media (max-width: 650px) {
+  .brand-small {
+    margin-top: 24px;
+  }
+}
 
 .content {
   width: 540px;
   box-sizing: border-box;
   margin-left: 208px;
-  margin-top: 40px;
+  margin-top: 48px;
 }
 @media (max-width: 960px) {
   .content {
@@ -256,7 +267,7 @@ footer {
   box-sizing: border-box;
   color: #aaa;
   margin-left: 208px;
-  margin-top: 16px;
+  margin-top: 32px;
   margin-bottom: 32px;
 }
 @media (max-width: 960px) {
