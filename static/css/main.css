@@ -381,3 +381,10 @@ footer {
   font-family: monospace;
   font-weight: 400;
 }
+
+#isso-thread .isso-comment > div.text-wrapper > .isso-comment-header .spacer,
+#isso-thread .isso-comment > div.text-wrapper > .isso-comment-header a.permalink,
+#isso-thread .isso-comment > div.text-wrapper > .isso-comment-header .note,
+#isso-thread .isso-comment > div.text-wrapper > .isso-comment-header a.parent {
+  font-family: monospace;
+}
