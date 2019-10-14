@@ -329,3 +329,36 @@ footer {
   border-radius: 50%;
   margin-top: 16px;
 }
+
+/* isso comments */
+#isso-thread .isso-postbox > .form-wrapper .textarea,
+#isso-thread .isso-postbox > .form-wrapper .preview {
+  margin: 0 0 4px;
+  /* padding: .4em .8em; */
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+}
+
+#isso-thread .isso-postbox > .form-wrapper > .auth-section .input-wrapper input {
+  padding: 3px 7px;
+  max-width: 100%;
+  border-radius: 0;
+  background-color: #fff;
+  line-height: 1.4em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+}
+
+#isso-thread .isso-postbox > .form-wrapper > .auth-section .input-wrapper {
+  margin-right: 4px;
+}
+
+#isso-thread .isso-postbox > .form-wrapper > .auth-section .post-action > input {
+    padding: 2px 4px;
+    border-radius: 0;
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    background-color: rgba(255, 0, 0, 0.2);
+    line-height: 1.4em;
+    box-shadow: none;
+}
