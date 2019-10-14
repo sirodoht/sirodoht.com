@@ -331,12 +331,13 @@ footer {
 }
 
 /* isso comments */
-#isso-thread {
+.comments {
   margin-top: 64px;
+  margin-bottom: 64px;
 }
 
 #isso-thread > h4 {
-  color: #000 !important;
+  display: none;
 }
 
 #isso-thread .isso-postbox > .form-wrapper .textarea,
@@ -363,7 +364,7 @@ footer {
 }
 
 #isso-thread .isso-postbox > .form-wrapper > .auth-section .post-action > input {
-  padding: 2px 4px;
+  padding: 2px 8px;
   border-radius: 0;
   border: 1px solid rgba(255, 0, 0, 0.2);
   background-color: rgba(255, 0, 0, 0.2);
@@ -378,4 +379,5 @@ footer {
 #isso-thread .isso-feedlink,
 #isso-thread .isso-comment > div.text-wrapper > .isso-comment-footer a {
   font-family: monospace;
+  font-weight: 400;
 }

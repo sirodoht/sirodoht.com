@@ -13,14 +13,18 @@
     <div itemprop="articleBody">
       {{ page.content | safe }}
     </div>
+    ---
   </article>
-  ---
-  <section id="isso-thread"></section>
-  <script
-    data-isso="https://isso.projects.sirodoht.com/"
-    data-isso-avatar="false"
-    data-isso-vote="false"
-    src="https://isso.projects.sirodoht.com/js/embed.min.js"></script>
+
+  <section class="comments">
+    <h4>Comments</h4>
+    <div id="isso-thread"></div>
+    <script
+      data-isso="https://isso.projects.sirodoht.com/"
+      data-isso-avatar="false"
+      data-isso-vote="false"
+      src="https://isso.projects.sirodoht.com/js/embed.min.js"></script>
+  </section>
 </div>
 <footer>
   <a href="/">← all posts</a>
