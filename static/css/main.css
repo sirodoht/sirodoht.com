@@ -331,10 +331,18 @@ footer {
 }
 
 /* isso comments */
+#isso-thread {
+  margin-top: 64px;
+}
+
+#isso-thread > h4 {
+  color: #000 !important;
+}
+
 #isso-thread .isso-postbox > .form-wrapper .textarea,
 #isso-thread .isso-postbox > .form-wrapper .preview {
   margin: 0 0 4px;
-  /* padding: .4em .8em; */
+  padding: 6px 8px;
   border-radius: 0;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: none;
@@ -355,10 +363,19 @@ footer {
 }
 
 #isso-thread .isso-postbox > .form-wrapper > .auth-section .post-action > input {
-    padding: 2px 4px;
-    border-radius: 0;
-    border: 1px solid rgba(255, 0, 0, 0.2);
-    background-color: rgba(255, 0, 0, 0.2);
-    line-height: 1.4em;
-    box-shadow: none;
+  padding: 2px 4px;
+  border-radius: 0;
+  border: 1px solid rgba(255, 0, 0, 0.2);
+  background-color: rgba(255, 0, 0, 0.2);
+  line-height: 1.4em;
+  box-shadow: none;
+}
+
+#isso-thread .isso-postbox > .form-wrapper > .auth-section .post-action > input[name="preview"] {
+  display: none;
+}
+
+#isso-thread .isso-feedlink,
+#isso-thread .isso-comment > div.text-wrapper > .isso-comment-footer a {
+  font-family: monospace;
 }
