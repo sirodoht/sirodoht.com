@@ -357,6 +357,7 @@ footer {
   line-height: 1.4em;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: none;
+  -webkit-appearance: none;
 }
 
 #isso-thread .isso-postbox > .form-wrapper > .auth-section .input-wrapper {
