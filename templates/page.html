@@ -1,0 +1,11 @@
+{% extends 'index.html' %}
+
+{% block title %}{{ page.title }}{% endblock title %}
+
+{% block content %}
+<div class="content">
+  <a href="/" class="brand-small">sirodoht blog</a>
+  {{ page.content | safe }}
+  <br><a href="/">← blog</a>
+</div>
+{% endblock content %}
