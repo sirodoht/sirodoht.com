@@ -15,6 +15,7 @@ For me picking up a new programming language is hard because finding the success
 The first step is usually obvious, it’s a “Getting started” article on the official docs. This includes the basic syntax and concepts. With Rust, the second step is easy too, it’s [The Book](https://doc.rust-lang.org/book/second-edition/). The third step would be to write your own thing, to solve a problem of your own; create a small project.
 
 The problems with this are:
+
 * What this project will be
 * How hard it should be
 * How I can learn if the result is low, medium or high quality
@@ -26,10 +27,10 @@ Secondly, you can’t know how hard the problem you want to tackle is when using
 Thirdly, you can’t assess the result; whether it’s high quality Rust code or not. There might be open source clones, but who says they’re better or worse? In contrast with the previous problems, this is much harder to overcome, and again, especially if you are a beginner.
 
 To sum up, we need:
+
 * To know the correct problems to solve
 * The level of difficulty of each one
 * The reference solution of an expert
-
 
 ## The solution proposal
 
@@ -37,7 +38,8 @@ Along with the Book and Rust By Example add a series of high quality, Rust-suita
 
 These projects’ difficulty could escalate proportionately.
 
-Here is a proposal from someone who doesn’t know Rust:  
+Here is a proposal from someone who doesn’t know Rust:
+
 0. Hello World
 1. [Guessing game](https://doc.rust-lang.org/book/second-edition/ch02-00-guessing-game-tutorial.html)
 2. JSON validator
@@ -55,14 +57,14 @@ With these, a Rust learner can refer to exemplary, readable, beginner-friendly c
 
 The existence of official tutorials, part of Rust docs, means that there will be a go-to resource for all new users, and a few example projects that will always be up-to-date and available for studying.
 
+<div class="notes-separator"></div>
 
-—
+**Notes**
 
-[1] At least for now.  
-[2] Well, guessing might work, but we want to improve things here anyway.  
-[3] Yes, C might be a more suitable language for this task, but Python is ok for learning.  
+[1] At least for now.
 
+[2] Well, guessing might work, but we want to improve things here anyway.
 
----
+[3] Yes, C might be a more suitable language for this task, but Python is ok for learning.
 
 *This article was also published on [Medium](https://medium.com/@sirodoht/rust-incremental-difficulty-tutorial-series-8c09ecdd38e7).*

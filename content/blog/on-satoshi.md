@@ -39,9 +39,9 @@ I secretly hope the real identity of Satoshi Nakamoto will never be known, thus 
 > "I would be surprised if 10 years from now we're not using electronic currency in some way, now that we know a way to do it that won't inevitably get dumbed down when the trusted third party gets cold feet."  
 > \- Satoshi Nakamoto <satoshi<span></span>@vistomail.com> [Fri Jan 16 11:03:14 EST 2009](http://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html)
 
----
+<div class="notes-separator"></div>
 
-References:
+**References**
 
 1. The Complete Satoshi. Everything he wrote, for us to obsess over. [https://satoshi.nakamotoinstitute.org/](https://satoshi.nakamotoinstitute.org/)
 2. An excellent analysis of Bitcoin in respect to its shortcomings by the one and only, Gwern Branwen. [http://www.gwern.net/Bitcoin-is-Worse-is-Better](http://www.gwern.net/Bitcoin-is-Worse-is-Better)

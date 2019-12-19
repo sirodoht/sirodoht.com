@@ -39,5 +39,3 @@ The challenge is to produce the string `MU`, or prove it cannot be produced.
 Nota bene: These are one-way rules. In addition, sometimes, more than one rules may be valid to be applied; in this case, you have to pick the best fitting one in order to reach the desired string, `MU`.
 
 These theories, namely formal systems, grammars, languages, inference rules, etc, belong to the domain of [Computation Theory](https://en.wikipedia.org/wiki/Theory_of_computation). It’s a very interesting, though deeply theoretical domain of Mathematics and Computer Science.
-
-So, this is the end of this post. Try to solve that puzzle now! It's not hard at all!

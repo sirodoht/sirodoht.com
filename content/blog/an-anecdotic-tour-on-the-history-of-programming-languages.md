@@ -162,6 +162,8 @@ The history of programming languages is very interesting to read about. It urges
 
 Hopefully, after 45 years, C will pass the scepter and let us prove to ourselves that we now know software better.
 
----
+<div class="notes-separator"></div>
+
+**Notes**
 
 *This article was originally published on [HackerNoon](https://hackernoon.com/an-anecdotic-tour-on-the-history-of-programming-languages-928bc6e9a9a8).*
