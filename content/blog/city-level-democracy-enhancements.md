@@ -56,7 +56,7 @@ This is an example of how these ideas can help improve the state of a city.
 
 In the city of Thessaloniki, Greece, the following has happened repeatedly: a thief steals someone's bag from a restaurant. The police, using the restaurant's cameras, identify the thief, and respond that this is a known thief, who gets caught regularly by them. However, the prosecutor releases the thief the following day. Even if a particular thief goes in jail for a few months, they will return to their theiving life soon enough.
 
-This is a bizzare situation that transpires because of citizens' detachedness and centralized laws, which are destined to work on all scenarios, country or continent-wide (reading between the lines: EU).
+This is a bizarre situation that transpires because of citizens' detachedness and centralized laws, which are destined to work on all scenarios, country or continent-wide (reading between the lines: EU).
 
 Using the ideas of borough assemblies and postal code groups, local citizens that experience this situation can contribute actively to this problem. My expectation is that their action would be much more effective because it would be much more focused, in contrast to a solution from a centralized government that is required to create one law to cover all cases.
 
