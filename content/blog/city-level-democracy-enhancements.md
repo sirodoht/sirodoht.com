@@ -4,7 +4,7 @@ date = 2019-12-19
 template = "post.html"
 +++
 
-Disclaimer: Some of these ideas, in different forms, exist in various countries. This is from my personal perspective in Thessaloniki, Greece.
+Disclaimer: Some of the following ideas, in different forms, exist in various countries. This is from my personal perspective in Thessaloniki, Greece.
 
 ## Introduction
 
