@@ -1,5 +1,5 @@
 +++
-title = "Advanced Language Switching"
+title = "Advanced language switching"
 date = 2014-12-08
 template = "post.html"
 +++
@@ -8,7 +8,7 @@ One field where there is not as much development as I would like is language inp
 
 In Greek, as I said, you can easily setup your keyboard layout in any operating system I have seen, but there is none with advanced keyboard layout switching techniques.
 
-## Advanced Keyboard Layout Switching Techniques
+## Advanced keyboard layout switching techniques
 
 One very common thing, which always causes time to be lost is that specific fields always take English, and never Greek. For instance, the browser URL bar. You are never going to enter Greek characters there, so it would be a very good idea to *lock* this input field on Greek. Of course, this would happen on an OS level, which means that somehow the operating system should understand which text input field is active, on any open program.
 
