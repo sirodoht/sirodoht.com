@@ -174,7 +174,7 @@ h3 {
   display: block;
   font-size: 40px;
   margin-bottom: 40px;
-  color: #493657;
+  color: #000;
   font-weight: 400;
 }
 @media (max-width: 650px) {
@@ -198,8 +198,7 @@ h3 {
 .brand-small {
   margin-bottom: 32px;
   display: block;
-  color: #493657 !important;
-  text-align: right;
+  color: #d3d3d3 !important;
   text-decoration: none !important;
 }
 @media (max-width: 650px) {
@@ -212,7 +211,7 @@ h3 {
   width: 540px;
   box-sizing: border-box;
   margin-left: 208px;
-  margin-top: 48px;
+  margin-top: 40px;
 }
 @media (max-width: 960px) {
   .content {
