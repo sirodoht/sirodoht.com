@@ -240,35 +240,6 @@ main {
   margin-top: 64px;
 }
 
-footer {
-  width: 540px;
-  box-sizing: border-box;
-  color: #aaa;
-  margin-left: 208px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-@media (max-width: 960px) {
-  footer {
-    margin-left: 58px;
-  }
-}
-@media (max-width: 650px) {
-  footer {
-    width: 100%;
-    margin-left: 0;
-    margin-bottom: 16px;
-    padding-top: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-  }
-}
-@media (min-width: 2400px) {
-  footer {
-    width: 800px;
-  }
-}
-
 .byline {
   margin-top: 4px;
   margin-bottom: 24px;
@@ -305,6 +276,60 @@ footer {
 .photo {
   border-radius: 50%;
   margin-top: 16px;
+}
+
+/* projects */
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+  margin-top: 16px;
+}
+@media (max-width: 510px) {
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 340px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+
+.projects-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* footer */
+footer {
+  width: 540px;
+  box-sizing: border-box;
+  color: #aaa;
+  margin-left: 208px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+@media (max-width: 960px) {
+  footer {
+    margin-left: 58px;
+  }
+}
+@media (max-width: 650px) {
+  footer {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 16px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+@media (min-width: 2400px) {
+  footer {
+    width: 800px;
+  }
 }
 
 /* isso comments */
