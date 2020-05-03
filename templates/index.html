@@ -9,7 +9,7 @@
   </head>
   <body>
     {% block content %}
-    <div class="content">
+    <main>
       <h1 class="brand"><a href="/">sirodoht blog</a></h1>
       <ul class="posts">
         {% set blog = get_section(path='blog/_index.md') %}
@@ -20,7 +20,7 @@
         </li>
         {% endfor %}
       </ul>
-    </div>
+    </main>
 
     <footer>
       <br><em>---</em>
