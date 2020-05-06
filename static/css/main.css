@@ -75,6 +75,16 @@ img {
 }
 
 /* general */
+:root {
+  --text-color: #333;
+  --blue-color: #0864c7;
+  --purple-color: #b300b3;
+  --red-color: #ff0000;
+  --pink-color: #fda6a8;
+  --light-grey-color: #eff1f5;
+  --dark-grey-color: #aaa;
+}
+
 html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -89,17 +99,18 @@ body {
 }
 
 p {
-  color: #333;
+  color: var(--text-color);
   line-height: 24px;
 }
 
-ul, ol {
-  color: #333;
+ul,
+ol {
+  color: var(--text-color);
   line-height: 22px;
 }
 
 a {
-  color: #0864c7;
+  color: var(--blue-color);
   text-decoration: none;
 }
 
@@ -108,11 +119,11 @@ a:hover {
 }
 
 a:visited {
-  color: #b300b3;
+  color: var(--purple-color);
 }
 
 a:active {
-  color: #ff0000;
+  color: var(--red-color);
 }
 
 hr {
@@ -120,7 +131,7 @@ hr {
 }
 
 blockquote {
-  border-left: 4px solid #e8e8e8;
+  border-left: 4px solid var(--light-grey-color);
   padding-left: 16px;
   margin-left: 0;
 }
@@ -139,7 +150,7 @@ pre {
 
 code {
   font-size: 14px;
-  background: #eff1f5;
+  background: var(--light-grey-color);
   padding: 2px 3px;
 }
 
@@ -170,7 +181,7 @@ h3 {
   }
 }
 
-.brand a {
+.brandmain a {
   display: block;
   font-size: 40px;
   margin-bottom: 40px;
@@ -178,31 +189,33 @@ h3 {
   font-weight: 400;
 }
 @media (max-width: 650px) {
-  .brand a {
+  .brandmain a {
     font-size: 32px;
     margin-top: 8px;
     margin-bottom: 24px;
   }
 }
 @media (min-width: 2400px) {
-  .brand a {
+  .brandmain a {
     font-size: 70px;
     margin-bottom: 48px;
   }
 }
 
-.brand a:hover {
+.brandmain a:hover {
   text-decoration: none;
 }
 
-.brand-small {
-  margin-bottom: 32px;
-  display: block;
-  color: #d3d3d3 !important;
+.branddiscreet {
+  color: var(--light-grey-color) !important;
   text-decoration: none !important;
+  display: block;
+  margin-bottom: 32px;
+  font-size: 40px;
+  font-weight: 400;
 }
 @media (max-width: 650px) {
-  .brand-small {
+  .branddiscreet {
     margin-top: 24px;
   }
 }
@@ -244,7 +257,7 @@ main {
   margin-top: 4px;
   margin-bottom: 24px;
   font-size: 12px;
-  color: #aaa;
+  color: var(--dark-grey-color);
 }
 @media (min-width: 2400px) {
   .byline {
@@ -263,7 +276,7 @@ main {
 
 .posts time {
   font-size: 12px;
-  color: #aaa;
+  color: var(--dark-grey-color);
   white-space: nowrap;
 }
 @media (min-width: 2400px) {
@@ -306,7 +319,7 @@ main {
 footer {
   width: 540px;
   box-sizing: border-box;
-  color: #aaa;
+  color: var(--dark-grey-color);
   margin-left: 208px;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -332,32 +345,47 @@ footer {
   }
 }
 
+@media print {
+  footer a:first-child {
+    display: none;
+  }
+}
+
 /* isso comments */
 .comments {
   margin-top: 64px;
   margin-bottom: 64px;
+}
+@media print {
+  .comments {
+    display: none;
+  }
 }
 
 #isso-thread > h4 {
   display: none;
 }
 
+#isso-thread .isso-postbox > .form-wrapper .placeholder {
+  color: var(--dark-grey-color);
+}
+
 #isso-thread .isso-postbox > .form-wrapper .textarea,
 #isso-thread .isso-postbox > .form-wrapper .preview {
   margin: 0 0 4px;
-  padding: 6px 8px;
+  padding: 4px 6px;
   border-radius: 0;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--light-grey-color);
   box-shadow: none;
 }
 
 #isso-thread .isso-postbox > .form-wrapper > .auth-section .input-wrapper input {
-  padding: 3px 7px;
+  padding: 3px 5px;
   max-width: 100%;
   border-radius: 0;
   background-color: #fff;
   line-height: 1.4em;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--light-grey-color);
   box-shadow: none;
   -webkit-appearance: none;
 }
@@ -374,11 +402,21 @@ footer {
 #isso-thread .isso-postbox > .form-wrapper > .auth-section .post-action > input {
   padding: 2px 8px;
   border-radius: 0;
-  border: 1px solid rgba(255, 0, 0, 0.2);
-  background-color: rgba(255, 0, 0, 0.2);
+  border: 1px solid var(--pink-color);
+  background: #fff;
   line-height: 1.4em;
   box-shadow: none;
   -webkit-appearance: none;
+}
+
+#isso-thread .isso-postbox > .form-wrapper > .auth-section .post-action > input[type="submit"] {
+  padding: 2px 16px;
+}
+
+#isso-thread .isso-postbox > .form-wrapper > .auth-section .post-action > input[type="submit"]:hover {
+  color: #fff;
+  background: var(--pink-color);
+  transition: 0.1s;
 }
 
 #isso-thread .isso-postbox > .form-wrapper > .auth-section .post-action > input[name="preview"] {
