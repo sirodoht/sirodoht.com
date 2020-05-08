@@ -80,7 +80,7 @@ img {
   --blue-color: #0864c7;
   --purple-color: #b300b3;
   --red-color: #ff0000;
-  --pink-color: #fda6a8;
+  --pink-color: #fda6a780;
   --light-grey-color: #eff1f5;
   --dark-grey-color: #aaa;
 }
@@ -383,7 +383,7 @@ footer {
   margin: 0 0 4px;
   padding: 4px 6px;
   border-radius: 0;
-  border: 1px solid var(--light-grey-color);
+  border: 2px solid var(--light-grey-color);
   box-shadow: none;
 }
 
@@ -393,7 +393,7 @@ footer {
   border-radius: 0;
   background-color: #fff;
   line-height: 1.4em;
-  border: 1px solid var(--light-grey-color);
+  border: 2px solid var(--light-grey-color);
   box-shadow: none;
   -webkit-appearance: none;
 }
@@ -410,7 +410,7 @@ footer {
 #isso-thread .isso-postbox > .form-wrapper > .auth-section .post-action > input {
   padding: 2px 8px;
   border-radius: 0;
-  border: 1px solid var(--pink-color);
+  border: 2px solid var(--pink-color);
   background: #fff;
   line-height: 1.4em;
   box-shadow: none;
