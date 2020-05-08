@@ -422,7 +422,6 @@ footer {
 }
 
 #isso-thread .isso-postbox > .form-wrapper > .auth-section .post-action > input[type="submit"]:hover {
-  color: #fff;
   background: var(--pink-color);
   transition: 0.1s;
 }
