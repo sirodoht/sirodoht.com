@@ -194,6 +194,10 @@ h3 {
     margin-bottom: 24px;
   }
 }
+
+.subtitle {
+  margin-bottom: 32px;
+  color: var(--dark-grey-color);
 }
 
 main {
