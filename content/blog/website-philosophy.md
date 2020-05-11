@@ -29,11 +29,11 @@ All pages are smaller than 100KB, putting this at the top 1% of all websites in 
 
 ## Minimalistic design
 
-This design started from copying [patrickcollison.com](https://patrickcollison.com/). I had found it notably easy to read, and I realized small fonts, no stylistic distractions, and the presentation of raw content were key ideas.
+This design started from copying [patrickcollison.com](https://patrickcollison.com/). It was notably easy to read, and I realized small fonts, no stylistic distractions, and the presentation of raw content were key ideas.
 
 ## No fancy features
 
-I started with zero JavaScript as a principle too, but decided not to be dogmatic and embrace a couple of dozens KB for easily adding [comments](https://github.com/posativ/isso) with all the features I wanted, such as completely anonymous posting and optional eponymity.
+Zero JavaScript was a principle in the beginning too, but decided not to be dogmatic and embrace a couple of dozens KB for easily adding [comments](https://github.com/posativ/isso) with all the nice features, such as completely anonymous posting and optional eponymity.
 
 ## Public domain
 
