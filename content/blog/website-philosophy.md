@@ -11,7 +11,7 @@ Here are a couple from the old times:
 * [https://www.kenrockwell.com/](https://www.kenrockwell.com/) – Invaluable resource for photographers.
 * [https://www.sheldonbrown.com/](https://www.sheldonbrown.com/) – Invaluable resource for bicyclists and especially fixed gear.
 
-As for personal blogs, here are three favourite of the curren era, with very interesting essays on various topics:
+As for personal blogs, here are three favourite of the current era, with very interesting essays on various topics:
 
 * [https://www.gwern.net/](https://www.gwern.net/)
 * [https://patrickcollison.com/](https://patrickcollison.com/)
