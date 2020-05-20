@@ -21,7 +21,7 @@ On the same note, I recently read [this article](https://24ways.org/2019/its-tim
 
 ## No tracking
 
-Zero tracking, no analytics. Truth is, I'd like some backend analytics to see how each post is doing, but the drawbacks outweigh the benefits at this point.
+Zero tracking, no analytics. Eliminating both ad distributors and reading vanity metrics. Even when it becomes tempting to learn whether this sentence has been read by anybody at all!
 
 ## Fast loading
 
