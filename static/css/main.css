@@ -82,7 +82,7 @@ img {
   --red-color: #ff0000;
   --pink-color: #fda6a780;
   --light-grey-color: #eff1f5;
-  --dark-grey-color: #aaa;
+  --dark-grey-color: #999;
 }
 
 html,
@@ -130,17 +130,29 @@ blockquote {
   margin-left: 0;
 }
 
+blockquote p {
+  color: var(--dark-grey-color);
+}
+
 pre {
   font-size: 14px;
   padding: 8px;
   border-radius: 2px;
   overflow-y: scroll;
+  background: var(--light-grey-color);
 }
 
 code {
   font-size: 14px;
   background: var(--light-grey-color);
   padding: 2px 3px;
+}
+
+kbd {
+  border-bottom: 2px solid var(--dark-grey-color);
+  background: var(--light-grey-color);
+  border-radius: 4px;
+  padding: 3px 6px;
 }
 
 h1 {
