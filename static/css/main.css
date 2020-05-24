@@ -212,6 +212,10 @@ h3 {
   color: var(--dark-grey-color);
 }
 
+.subtitle::before {
+  content: "» ";
+}
+
 main {
   width: 540px;
   box-sizing: border-box;
