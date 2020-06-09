@@ -4,6 +4,6 @@ description = "Some website."
 language_code = "en"
 compile_sass = false
 highlight_code = true
-highlight_theme = "base16-ocean-light"
+highlight_theme = "ayu-light"
 generate_rss = true
 rss_limit = 20
