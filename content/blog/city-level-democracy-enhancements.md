@@ -67,10 +67,8 @@ Using the ideas of borough assemblies and postal code groups, local citizens tha
 
 It is expected that this text has had more of a detrimental effect to one's belief on the possible success of democracy rather than beneficial. This truth becomes even more apparent when the proposals of this text are actually implemented. Yet, absence of despair is recommended, as this is a one-way street: nihilism is deprecated.
 
-<div class="notes-separator"></div>
-
 \---
 
-**References**
+**Notes**
 
 [1] In Switzerland, a cantonal assembly still exists in some parts: [https://en.wikipedia.org/wiki/Landsgemeinde](https://en.wikipedia.org/wiki/Landsgemeinde)

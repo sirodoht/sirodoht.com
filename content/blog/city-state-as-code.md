@@ -54,8 +54,6 @@ Nevertheless, I hope the point of the above is now visible: the juxtaposition of
 
 And that's all there is to it. So much, that one could even say this article is not about cities, but rather, all humanity's activities.
 
-<div class="notes-separator"></div>
-
 \---
 
 **Notes**

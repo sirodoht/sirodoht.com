@@ -22,8 +22,6 @@ Had we cared about the status quo of centralized government and its merits we mi
 
 The unsustainability of unregulated capitalism on an economic level matches perfectly that of the environmental level. People will die, both from poverty and from extreme storms, while the tres commas club members emerge victorious at the final boss battle in the golden age of individualism: that of finally being alone.
 
-<div class="notes-separator"></div>
-
 \---
 
 **Notes**

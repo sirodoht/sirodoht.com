@@ -323,8 +323,6 @@ As the project grows the above bits will change. The commit hash the above snipp
 
 You can find the full code at [github.com/sirodoht/mataroa](https://github.com/sirodoht/mataroa) or [sr.ht/~sirodoht/mataroa/](https://sr.ht/~sirodoht/mataroa/). Or browse the above commit hash at [github](https://github.com/sirodoht/mataroa/tree/48af918dd84a9a579db6dcc95461669e4cbf8d08) and [srht](https://git.sr.ht/~sirodoht/mataroa/tree/48af918dd84a9a579db6dcc95461669e4cbf8d08).
 
-<div class="notes-separator"></div>
-
 \---
 
 [1] Stavros' inspiration led him to [Quick Site](https://quicksite.stavros.io/).  

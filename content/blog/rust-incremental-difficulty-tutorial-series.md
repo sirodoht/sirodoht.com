@@ -57,7 +57,7 @@ With these, a Rust learner can refer to exemplary, readable, beginner-friendly c
 
 The existence of official tutorials, part of Rust docs, means that there will be a go-to resource for all new users, and a few example projects that will always be up-to-date and available for studying.
 
-<div class="notes-separator"></div>
+\---
 
 **Notes**
 

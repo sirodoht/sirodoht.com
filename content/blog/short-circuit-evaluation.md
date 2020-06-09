@@ -40,7 +40,7 @@ if large_number % i == 0:
 
 If we didn't have short-circuit evaluation and we wanted to avoid the needless computation of `is_prime(i)`, we would have to do something like the code above.
 
-<div class="notes-separator"></div>
+\---
 
 **Notes**
 
